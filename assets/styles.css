@@ -440,6 +440,12 @@ h2 {
   overflow-wrap: anywhere;
 }
 .locs .area { color: var(--muted); }
+.flag {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-style: italic;
+}
 .card-foot {
   display: flex;
   flex-wrap: wrap;

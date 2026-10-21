@@ -130,6 +130,7 @@
       (r.description ? '<p class="desc">' + esc(r.description) + "</p>" : "") +
       dishes +
       '<ul class="locs">' + locs + "</ul>" +
+      (r.unconfirmed ? '<p class="flag">Open status not recently confirmed. Check before you go.</p>' : "") +
       '<div class="card-foot"><div class="tags">' + tags.map(function (t) { return "<span>" + esc(t) + "</span>"; }).join("") +
       '</div><div class="links">' + links + "</div></div>" +
       "</article>";
