@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Friday Good Eats</title>
+<meta name="description" content="Independent restaurants in Kitchener, Waterloo and Cambridge, Ontario where a meal costs under $40 per person, sorted by the kind of food they serve.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">Kitchener &middot; Waterloo &middot; Cambridge</p>
+    <h1>Friday Good Eats</h1>
+    <p class="lede">Every independent restaurant in the tri-cities where a meal runs under $40 a person, sorted by the kind of food it serves. No big chains: every spot here has fewer than 10 locations.</p>
+    <dl class="stats" id="stats"></dl>
+  </div>
+</header>
+
+<div class="controls" id="controls">
+  <div class="wrap controls-inner">
+    <label class="field field-search" for="q">
+      <span class="field-label">Search</span>
+      <input id="q" type="search" placeholder="Name, dish, cuisine or street" autocomplete="off">
+    </label>
+    <div class="field">
+      <span class="field-label" id="city-label">City</span>
+      <div class="segmented" role="radiogroup" aria-labelledby="city-label" id="city"></div>
+    </div>
+    <label class="field" for="group">
+      <span class="field-label">Cuisine</span>
+      <select id="group"></select>
+    </label>
+    <label class="field" for="price">
+      <span class="field-label">Price</span>
+      <select id="price">
+        <option value="">Any (under $40)</option>
+        <option value="$">$ &middot; under $20</option>
+        <option value="$$">$$ &middot; $20&ndash;$40</option>
+      </select>
+    </label>
+    <label class="field" for="diet">
+      <span class="field-label">Dietary</span>
+      <select id="diet">
+        <option value="">Any</option>
+        <option value="Vegetarian-friendly">Vegetarian-friendly</option>
+        <option value="Vegan options">Vegan options</option>
+        <option value="Halal">Halal</option>
+        <option value="Gluten-free options">Gluten-free options</option>
+      </select>
+    </label>
+    <button type="button" class="btn btn-quiet" id="reset">Clear filters</button>
+  </div>
+</div>
+
+<main class="wrap">
+  <section class="cuisines" aria-labelledby="cuisines-h">
+    <h2 id="cuisines-h">Browse by cuisine</h2>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <section aria-labelledby="results-h">
+    <div class="results-head">
+      <div class="results-title">
+        <h2 id="results-h">Restaurants</h2>
+        <p class="count" id="count" aria-live="polite"></p>
+      </div>
+      <div class="results-tools">
+        <label class="inline-field" for="sort">
+          <span class="field-label">Sort</span>
+          <select id="sort">
+            <option value="name">Name A&ndash;Z</option>
+            <option value="price">Cheapest first</option>
+            <option value="cuisine">Cuisine</option>
+            <option value="city">City</option>
+          </select>
+        </label>
+        <button type="button" class="btn btn-pick" id="pick">Pick for Friday</button>
+      </div>
+    </div>
+    <div class="grid" id="results"></div>
+    <div class="empty" id="empty" hidden>
+      <p>No restaurants match those filters.</p>
+      <button type="button" class="btn btn-quiet" id="empty-reset">Clear filters</button>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <h2>How this list was built</h2>
+      <p>Each restaurant was found through web research across neighbourhood guides, business-association directories, review sites and local news, then checked one by one: it must sit inside Kitchener, Waterloo or Cambridge city limits, serve real meals, be open as of <span id="updated">October 2026</span>, have fewer than 10 locations anywhere, and cost under $40 a person for a main and a non-alcoholic drink before tax and tip.</p>
+    </div>
+    <div>
+      <h2>Before you go</h2>
+      <p>Prices are typical estimates and menus change. Restaurants open and close often, so check hours on the restaurant's own site or map listing before heading out.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="data/restaurants.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
