@@ -193,7 +193,9 @@ body::before {
   gap: 4px;
   min-width: 0;
 }
-.field-search { flex: 1 1 240px; }
+.field-search { flex: 1 1 180px; }
+#group { max-width: 200px; }
+#diet { max-width: 180px; }
 .field-label {
   font-size: 0.6875rem;
   font-weight: 600;
@@ -334,6 +336,18 @@ h2 {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+}
+.link-btn {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-size: var(--step--1);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
 }
 .inline-field {
   display: flex;

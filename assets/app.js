@@ -146,6 +146,7 @@
     els.results.innerHTML = current.map(card).join("");
     els.empty.hidden = current.length > 0;
     els.pick.disabled = current.length === 0;
+    els.reset.hidden = !(state.q || state.city || state.group || state.price || state.diet);
     els.count.textContent = current.length === ALL.length
       ? "Showing all " + ALL.length
       : "Showing " + current.length + " of " + ALL.length;
