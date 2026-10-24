@@ -273,8 +273,8 @@
    "unconfirmed": false
   },
   {
-   "id": "adobo-fresh-burrito-mexican-grill",
-   "name": "Adobo Fresh Burrito Mexican Grill",
+   "id": "adobo-fresh-burrito",
+   "name": "Adobo Fresh Burrito",
    "group": "Mexican",
    "cuisine": "Mexican burritos & bowls",
    "category": "Takeout counter",
@@ -287,11 +287,11 @@
      "area": "North Cambridge (Franklin Blvd)"
     }
    ],
-   "description": "Fast-casual Mexican grill serving burritos and related fare.",
+   "description": "Fast-casual Mexican counter in a Franklin Blvd plaza making build-your-own burritos, bowls and similar fillings.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "adulis-caffe",
@@ -504,6 +504,27 @@
    "unconfirmed": false
   },
   {
+   "id": "ameha-s-east-african-restaurant",
+   "name": "Ameha's (East African) Restaurant",
+   "group": "African",
+   "cuisine": "East African / Ethiopian",
+   "category": "Takeout counter",
+   "cost": 20,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "1500 Weber St E",
+     "city": "Kitchener",
+     "area": "Stanley Park"
+    }
+   ],
+   "description": "East African (Ethiopian-style) meals for takeout and delivery, linked to the Ameha's Fresh Food butcher shop on Weber Street East.",
+   "dishes": [],
+   "dietary": [],
+   "website": "",
+   "unconfirmed": true
+  },
+  {
    "id": "america-latina-grocery-and-eatery",
    "name": "America Latina Grocery & Eatery",
    "group": "Latin American",
@@ -622,33 +643,12 @@
    "unconfirmed": false
   },
   {
-   "id": "apex-grill",
-   "name": "Apex Grill",
-   "group": "Fusion",
-   "cuisine": "Greek & Asian grill",
-   "category": "Takeout counter",
-   "cost": 17,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "390 Courtland Ave E",
-     "city": "Kitchener",
-     "area": "Mill Courtland"
-    }
-   ],
-   "description": "Takeout grill serving a mix of Greek-style and Asian-style grilled dishes.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "aqua-lounge-and-restaurant",
    "name": "Aqua Lounge & Restaurant",
    "group": "Canadian & Contemporary",
-   "cuisine": "Lounge bar & grill (burgers, nachos, brunch)",
+   "cuisine": "Hotel bar & grill (American fare)",
    "category": "Restaurant",
-   "cost": 25,
+   "cost": 30,
    "tier": "$$",
    "locations": [
     {
@@ -657,11 +657,11 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Downtown lounge and restaurant with a casual menu of burgers, nachos and brunch dishes such as eggs Benedict.",
+   "description": "Lounge and restaurant inside the Crowne Plaza Kitchener-Waterloo serving breakfast and casual American bar-and-grill fare.",
    "dishes": [],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.facebook.com/aqua.cpkw/",
+   "unconfirmed": false
   },
   {
    "id": "arabella-park-beer-bar",
@@ -678,11 +678,17 @@
      "area": "Belmont Village"
     }
    ],
-   "description": "Belmont Village craft beer bar with about 18 rotating taps and a menu of shareable plates.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "description": "Belmont Village craft beer bar with 18 rotating taps and a changing menu of beer-friendly plates, sandwiches and fries.",
+   "dishes": [
+    "Brussels sprouts",
+    "Fries with malt aioli",
+    "Fried chicken sandwich"
+   ],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
+   "website": "https://arabellaparkbar.com/",
+   "unconfirmed": false
   },
   {
    "id": "arabesque-cafe-family-restaurant",
@@ -779,9 +785,9 @@
    "id": "aunty-s-kitchen",
    "name": "Aunty's Kitchen",
    "group": "Other South Asian",
-   "cuisine": "Pakistani home-style curries, plus burgers & chicken and waffles",
-   "category": "Takeout counter",
-   "cost": 16,
+   "cuisine": "Pakistani home-style",
+   "category": "Restaurant",
+   "cost": 18,
    "tier": "$",
    "locations": [
     {
@@ -790,15 +796,13 @@
      "area": "University District"
     }
    ],
-   "description": "Cheap University Plaza takeout serving Pakistani home-style curries and biryani, plus handmade burgers and chicken and waffles under sister brands.",
-   "dishes": [
-    "Biryani",
-    "Handmade burgers",
-    "Chicken and waffles"
+   "description": "Halal Pakistani restaurant near the University of Waterloo serving home-style curries and grills with a modern twist; also does tiffin and catering.",
+   "dishes": [],
+   "dietary": [
+    "Halal"
    ],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "http://auntyskitchen.ca/",
+   "unconfirmed": false
   },
   {
    "id": "azores-cambridge-bakery",
@@ -824,27 +828,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "baba-chicken-grill",
-   "name": "Baba Chicken Grill",
-   "group": "Chicken & Wings",
-   "cuisine": "Grilled chicken (cuisine unverified)",
-   "category": "Restaurant",
-   "cost": 17,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "170 University Ave W",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Restaurant in University Plaza that serves grilled chicken dishes, judging by its name.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "bangkok-cuisine",
@@ -1016,10 +999,10 @@
    "id": "beast-pizza",
    "name": "Beast Pizza",
    "group": "Pizza",
-   "cuisine": "Pizza",
-   "category": "Restaurant",
-   "cost": 16,
-   "tier": "$",
+   "cuisine": "Gourmet pizza",
+   "category": "Takeout counter",
+   "cost": 22,
+   "tier": "$$",
    "locations": [
     {
      "address": "66 Weber St E",
@@ -1027,36 +1010,10 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Downtown Kitchener pizza shop on Weber Street East.",
+   "description": "Kitchener outpost of chef Scott Vivian's Toronto pizzeria, serving gourmet pizzas, pasta, salads, desserts and whole-animal dinners.",
    "dishes": [],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "beertown-public-house",
-   "name": "Beertown Public House",
-   "group": "Pub Fare",
-   "cuisine": "Craft-beer gastropub (burgers, pizzas, pub mains)",
-   "category": "Pub",
-   "cost": 32,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "75 King St S",
-     "city": "Waterloo",
-     "area": "Uptown Waterloo"
-    },
-    {
-     "address": "561 Hespeler Rd",
-     "city": "Cambridge",
-     "area": "Hespeler Road"
-    }
-   ],
-   "description": "Craft beer bar from Kitchener's Charcoal Group, serving burgers, flatbreads and pub mains with a long rotating draft list.",
-   "dishes": [],
-   "dietary": [],
-   "website": "https://beertown.ca/",
+   "website": "https://www.beastpizza.ca/",
    "unconfirmed": false
   },
   {
@@ -1094,27 +1051,6 @@
    ],
    "website": "https://www.benthanh.ca/",
    "unconfirmed": false
-  },
-  {
-   "id": "bento",
-   "name": "Bento",
-   "group": "Japanese",
-   "cuisine": "Japanese bento & sushi takeout",
-   "category": "Takeout counter",
-   "cost": 16,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "315 Lincoln Rd",
-     "city": "Waterloo",
-     "area": "Lincoln Heights"
-    }
-   ],
-   "description": "Small takeout counter serving Japanese-style bento boxes and sushi.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "bianca-s-pizza",
@@ -1167,8 +1103,8 @@
    "unconfirmed": false
   },
   {
-   "id": "big-bull-burger-and-burrito",
-   "name": "Big Bull Burger and Burrito",
+   "id": "big-bull-burger-burrito-and-beer",
+   "name": "Big Bull Burger Burrito & Beer",
    "group": "Burgers",
    "cuisine": "Burgers & burritos",
    "category": "Takeout counter",
@@ -1181,11 +1117,13 @@
      "area": "Laurentian Hills"
     }
    ],
-   "description": "Takeout counter on Strasburg Rd serving burgers and burritos.",
-   "dishes": [],
+   "description": "Casual spot in the Strasburg Rd No Frills plaza serving burgers, burritos and waffle fries, with beer available.",
+   "dishes": [
+    "Waffle fries"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "big-d-s-hot-chicken",
@@ -1236,48 +1174,6 @@
    "unconfirmed": false
   },
   {
-   "id": "bistro-15",
-   "name": "Bistro 15",
-   "group": "Canadian & Contemporary",
-   "cuisine": "Casual bistro (menu unconfirmed)",
-   "category": "Café",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "15 Scott St",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Small casual bistro on Scott St in downtown Kitchener; its menu could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "blaze-and-bourbon-bar-and-grill",
-   "name": "Blaze & Bourbon Bar and Grill",
-   "group": "Pub Fare",
-   "cuisine": "Bar & grill (steaks, grill fare)",
-   "category": "Pub",
-   "cost": 28,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "811 Barbara Ct",
-     "city": "Cambridge",
-     "area": "Cambridge"
-    }
-   ],
-   "description": "Cambridge bar and grill serving grill fare such as steaks, with delivery listings showing a wider pub-style menu.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "blazn-chkn",
    "name": "Blazn Chkn",
    "group": "Chicken & Wings",
@@ -1292,7 +1188,7 @@
      "area": "University District"
     }
    ],
-   "description": "Takeout counter whose name points to spicy fried chicken; menu not verified.",
+   "description": "Takeout spot on King St N near the universities selling spicy fried chicken; its menu could not be verified.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -1313,28 +1209,7 @@
      "area": "Central Waterloo"
     }
    ],
-   "description": "Independent takeout pizza shop serving pizzas for pickup and delivery.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "boardwalk-burgers",
-   "name": "Boardwalk Burgers",
-   "group": "Burgers",
-   "cuisine": "Burgers & fries",
-   "category": "Restaurant",
-   "cost": 17,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "65 University Ave E",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Burger restaurant on University Avenue East serving burgers and fries.",
+   "description": "Small takeout pizzeria on Peppler St in Waterloo making pizzas for pickup and delivery; its menu could not be verified.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -1414,31 +1289,10 @@
    "unconfirmed": false
   },
   {
-   "id": "bolero-juices-and-pizza",
-   "name": "Bolero Juices and Pizza",
-   "group": "Pizza",
-   "cuisine": "Pizza slices & fresh juices",
-   "category": "Food hall stall",
-   "cost": 12,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "300 King St E",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Kitchener Market lower-level stall selling pizza and fresh juices.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "bombay-biryani-house",
    "name": "Bombay Biryani House",
    "group": "Indian",
-   "cuisine": "Indian biryani & curries",
+   "cuisine": "Indian/Pakistani biryani, karahi & curries",
    "category": "Takeout counter",
    "cost": 18,
    "tier": "$",
@@ -1449,11 +1303,16 @@
      "area": "University District"
     }
    ],
-   "description": "Indian takeout spot near Wilfrid Laurier selling biryanis and curries.",
-   "dishes": [],
-   "dietary": [],
+   "description": "Takeout and delivery spot near Laurier serving biryani, karahi dishes, combos and vegetarian curries.",
+   "dishes": [
+    "Biryani",
+    "Karahi"
+   ],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "bombay-hot-pot",
@@ -1560,52 +1419,10 @@
    "unconfirmed": false
   },
   {
-   "id": "bowl-and-seoul",
-   "name": "Bowl and Seoul",
-   "group": "Korean",
-   "cuisine": "Korean rice bowls (inferred)",
-   "category": "Restaurant",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "465 Phillip St",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Korean eatery near UW whose name suggests Korean rice bowls and related dishes.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "bowld",
-   "name": "Bowld",
-   "group": "Poke & Bowls",
-   "cuisine": "Rice & grain bowls",
-   "category": "Takeout counter",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "220 King St N",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Takeout counter near the universities serving build-your-own bowls.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "bread-and-bretzel-basket",
    "name": "Bread & Bretzel Basket",
    "group": "German & Central European",
-   "cuisine": "German bakery: pretzels, breads & sandwiches",
+   "cuisine": "German bakery: breads, pretzels, pastries & savoury rolls",
    "category": "Bakery",
    "cost": 12,
    "tier": "$",
@@ -1616,37 +1433,15 @@
      "area": "Laurelwood"
     }
    ],
-   "description": "German-style bakery in west Waterloo selling pretzels, rye breads, pastries and sandwiches.",
+   "description": "Family-owned German-Canadian bakery and café selling rye breads, pretzels, pastries, cakes and savoury items like sausage rolls.",
    "dishes": [
     "Pretzels",
-    "German breads"
+    "Sausage roll",
+    "Flax & fibre rye bread",
+    "Cherry streusel"
    ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "brown-donkatsu",
-   "name": "Brown Donkatsu",
-   "group": "Korean",
-   "cuisine": "Korean donkatsu (breaded pork cutlet)",
-   "category": "Restaurant",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "150 University Ave W",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Korean-style donkatsu restaurant serving breaded pork and chicken cutlets with rice and sauce.",
-   "dishes": [
-    "Pork donkatsu",
-    "Cheese donkatsu"
-   ],
-   "dietary": [],
-   "website": "",
+   "website": "http://www.breadandbretzel.com/",
    "unconfirmed": false
   },
   {
@@ -1671,36 +1466,8 @@
    "unconfirmed": false
   },
   {
-   "id": "burrito-guyz",
-   "name": "Burrito Guyz",
-   "group": "Mexican",
-   "cuisine": "Tex-Mex burritos & bowls",
-   "category": "Takeout counter",
-   "cost": 17,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "940 Jamieson Pkwy",
-     "city": "Cambridge",
-     "area": "Hespeler"
-    }
-   ],
-   "description": "Build-your-own Tex-Mex counter serving burritos, rice bowls, quesadillas, tacos and nachos.",
-   "dishes": [
-    "Burritos",
-    "Rice bowls",
-    "Quesadillas",
-    "Nachos"
-   ],
-   "dietary": [
-    "Vegetarian-friendly"
-   ],
-   "website": "https://burritoguyz.ca",
-   "unconfirmed": true
-  },
-  {
-   "id": "cabana-bar",
-   "name": "Cabana Bar",
+   "id": "cabana",
+   "name": "Cabana",
    "group": "Portuguese",
    "cuisine": "Portuguese bar & grill",
    "category": "Pub",
@@ -1713,19 +1480,23 @@
      "area": "Galt"
     }
    ],
-   "description": "Portuguese bar and grill in Galt serving grilled Portuguese dishes and bar food.",
-   "dishes": [],
+   "description": "Casual licensed Portuguese sports bar and grill serving bifanas, sandwiches, wings, burgers, steak and fish and chips.",
+   "dishes": [
+    "Bifanas",
+    "Chicken wings",
+    "Italian sandwich"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "cafe-22",
    "name": "Cafe 22",
    "group": "Café & Bakery",
-   "cuisine": "Café (menu unverified)",
+   "cuisine": "Café: breakfast, paninis, wraps, salads & soups",
    "category": "Café",
-   "cost": 15,
+   "cost": 16,
    "tier": "$",
    "locations": [
     {
@@ -1734,29 +1505,12 @@
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Café in Uptown Waterloo licensed as a restaurant; its menu could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "cafe-clementina",
-   "name": "Cafe Clementina",
-   "group": "Café & Bakery",
-   "cuisine": "Café (coffee & light meals)",
-   "category": "Café",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "17 Benton St",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
+   "description": "Uptown Waterloo café serving breakfasts, paninis, wraps, salads, homemade soups and specialty coffees.",
+   "dishes": [
+    "Paninis",
+    "Homemade soup",
+    "Wraps"
    ],
-   "description": "Downtown Kitchener café; it holds a restaurant licence, so it likely serves light meals with coffee, but its menu was not verified.",
-   "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": true
@@ -1765,9 +1519,9 @@
    "id": "cafe-europe",
    "name": "Cafe Europe",
    "group": "Café & Bakery",
-   "cuisine": "European-style café (menu unverified)",
+   "cuisine": "European-style café-bar: coffee, sandwiches & wings",
    "category": "Café",
-   "cost": 15,
+   "cost": 18,
    "tier": "$",
    "locations": [
     {
@@ -1776,8 +1530,11 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Small downtown café registered as a restaurant; its menu could not be verified.",
-   "dishes": [],
+   "description": "Family-run downtown café-bar serving espresso drinks and pastries alongside light meals such as sandwiches, soups and chicken wings.",
+   "dishes": [
+    "Chicken wings",
+    "Cappuccino"
+   ],
    "dietary": [],
    "website": "",
    "unconfirmed": true
@@ -1866,40 +1623,22 @@
      "address": "305 King St W",
      "city": "Kitchener",
      "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Downtown Kitchener plant-based café serving vegan breakfasts, bowls, sandwiches and baked goods with coffee.",
-   "dishes": [],
-   "dietary": [
-    "Vegan options",
-    "Vegetarian-friendly"
-   ],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "cafe-pyrus-outpost",
-   "name": "Café Pyrus Outpost",
-   "group": "Vegan & Vegetarian",
-   "cuisine": "Plant-based café: breakfast sandwiches, bowls & baked goods",
-   "category": "Café",
-   "cost": 17,
-   "tier": "$",
-   "locations": [
+    },
     {
      "address": "150 Roger St",
      "city": "Waterloo",
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Satellite outpost of the plant-based Café Pyrus, serving vegan baked goods, coffee and light café meals.",
+   "description": "Downtown Kitchener plant-based café serving vegan breakfasts, bowls, sandwiches and baked goods with coffee.",
    "dishes": [],
    "dietary": [
+    "Gluten-free options",
     "Vegan options",
     "Vegetarian-friendly"
    ],
-   "website": "https://www.cafepyrus.com/",
-   "unconfirmed": true
+   "website": "",
+   "unconfirmed": false
   },
   {
    "id": "california-thai",
@@ -1950,27 +1689,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "cambridge-plaza-sushi",
-   "name": "Cambridge Plaza Sushi",
-   "group": "Japanese",
-   "cuisine": "Sushi",
-   "category": "Restaurant",
-   "cost": 25,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "35 Queen St E",
-     "city": "Cambridge",
-     "area": "Hespeler"
-    }
-   ],
-   "description": "Hespeler Village sushi restaurant serving sushi rolls, sashimi and Japanese dishes.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "cambridge-restaurant",
@@ -2047,12 +1765,36 @@
    "unconfirmed": false
   },
   {
-   "id": "canadian-pizza-house-of-pizza-and-wings",
-   "name": "Canadian Pizza, House of Pizza and Wings",
+   "id": "canadian-istanbul",
+   "name": "Canadian Istanbul",
+   "group": "Turkish",
+   "cuisine": "Turkish doner and street food",
+   "category": "Restaurant",
+   "cost": 20,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "91 University Ave E",
+     "city": "Waterloo",
+     "area": "University District"
+    }
+   ],
+   "description": "Turkish restaurant in Waterloo serving doner kebab, gyro wraps and lahmacun for dine-in, takeout and delivery.",
+   "dishes": [
+    "Doner kebab",
+    "Lahmacun"
+   ],
+   "dietary": [],
+   "website": "https://canadianistanbul.ca/",
+   "unconfirmed": false
+  },
+  {
+   "id": "canadian-pizza",
+   "name": "Canadian Pizza",
    "group": "Pizza",
-   "cuisine": "Pizza & wings takeout",
+   "cuisine": "Pizza, wings & panzerotti",
    "category": "Takeout counter",
-   "cost": 18,
+   "cost": 16,
    "tier": "$",
    "locations": [
     {
@@ -2061,11 +1803,18 @@
      "area": "Lincoln Heights"
     }
    ],
-   "description": "Neighbourhood pizza takeout and delivery shop serving pizza and chicken wings.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "description": "Late-night pizza and wings takeout shop that also does deep-dish pizza, panzerotti, pasta and oven-baked nachos.",
+   "dishes": [
+    "Deep dish pizza",
+    "Chicken wings",
+    "Panzerotti",
+    "Oven-baked nachos"
+   ],
+   "dietary": [
+    "Gluten-free options"
+   ],
+   "website": "http://canadianpizzanwings.ca/",
+   "unconfirmed": false
   },
   {
    "id": "capri-pizza",
@@ -2190,7 +1939,7 @@
    "group": "Seafood",
    "cuisine": "Fish & chips",
    "category": "Restaurant",
-   "cost": 20,
+   "cost": 22,
    "tier": "$$",
    "locations": [
     {
@@ -2199,9 +1948,33 @@
      "area": "Hespeler Road"
     }
    ],
-   "description": "Fish and chips restaurant off Hespeler Road in Cambridge.",
+   "description": "Sit-down fish and chips restaurant near Hespeler Road serving battered fish, chips and beer.",
    "dishes": [
-    "Fish and chips"
+    "Fish & chips",
+    "Halibut and chips"
+   ],
+   "dietary": [],
+   "website": "",
+   "unconfirmed": false
+  },
+  {
+   "id": "ceremony-indian-cuisine",
+   "name": "Ceremony Indian Cuisine",
+   "group": "Indian",
+   "cuisine": "Indian curries & biryani",
+   "category": "Restaurant",
+   "cost": 22,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "600 Hespeler Rd",
+     "city": "Cambridge",
+     "area": "Hespeler Road"
+    }
+   ],
+   "description": "Newer Indian restaurant in the 600 Hespeler Road plaza serving curries and biryani for takeout and delivery.",
+   "dishes": [
+    "Vegetable biryani"
    ],
    "dietary": [],
    "website": "",
@@ -2239,7 +2012,7 @@
    "id": "charlie-s-deli",
    "name": "Charlie's Deli",
    "group": "Sandwiches & Delis",
-   "cuisine": "Deli sandwiches",
+   "cuisine": "Deli & prepared foods",
    "category": "Food hall stall",
    "cost": 14,
    "tier": "$",
@@ -2250,17 +2023,17 @@
      "area": "Galt"
     }
    ],
-   "description": "Cambridge Farmers' Market deli stall selling deli sandwiches on market days.",
+   "description": "Indoor deli and prepared-food vendor at the Saturday Cambridge Farmers' Market in downtown Galt.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "charminar-house",
    "name": "Charminar House",
    "group": "Indian",
-   "cuisine": "Hyderabadi biryani",
+   "cuisine": "Hyderabadi biryani & Indian curries",
    "category": "Takeout counter",
    "cost": 18,
    "tier": "$",
@@ -2271,31 +2044,10 @@
      "area": "University District"
     }
    ],
-   "description": "Small Indian takeout near the universities focused on Hyderabadi-style biryani.",
+   "description": "Delivery-focused Indian spot near the University of Waterloo serving biryani and curries, with frequent buy-one-get-one deals.",
    "dishes": [
-    "Hyderabadi biryani"
+    "Biryani"
    ],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "chatako-foods",
-   "name": "Chatako Foods",
-   "group": "Other",
-   "cuisine": "Cuisine not confirmed",
-   "category": "Restaurant",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "601 Doon Village Rd",
-     "city": "Kitchener",
-     "area": "Doon"
-    }
-   ],
-   "description": "Small restaurant in the Doon Village Road plaza in Kitchener; its cuisine could not be confirmed.",
-   "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": true
@@ -2322,8 +2074,34 @@
    "unconfirmed": false
   },
   {
+   "id": "cheesy-and-chilli-cafe",
+   "name": "Cheesy & Chilli Cafe",
+   "group": "Fusion",
+   "cuisine": "Indian street-style fusion café (burgers, pasta, sandwiches)",
+   "category": "Café",
+   "cost": 18,
+   "tier": "$",
+   "locations": [
+    {
+     "address": "325 Max Becker Dr",
+     "city": "Kitchener",
+     "area": "Forest Heights"
+    }
+   ],
+   "description": "Fusion café that puts Indian street flavours like peri peri, tandoori, schezwan and chaat on burgers, pasta, sandwiches and fries.",
+   "dishes": [
+    "Cheesy & Chilli Special burger",
+    "Peri peri fries",
+    "Bombay sev puri chaat",
+    "Maska bun"
+   ],
+   "dietary": [],
+   "website": "https://www.cheesyandchilli.ca/",
+   "unconfirmed": false
+  },
+  {
    "id": "cheesy-and-chili-best-indian-fast-food",
-   "name": "Cheesy and Chili - Best Indian Fast Food",
+   "name": "Cheesy and Chili",
    "group": "Indian",
    "cuisine": "Indian street & fast food",
    "category": "Takeout counter",
@@ -2343,33 +2121,12 @@
    "unconfirmed": false
   },
   {
-   "id": "cheesy-and-chilli",
-   "name": "Cheesy and Chilli",
-   "group": "Fusion",
-   "cuisine": "Indian-style fusion fast food (unverified)",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "325 Max Becker Dr",
-     "city": "Kitchener",
-     "area": "Forest Heights"
-    }
-   ],
-   "description": "Casual fast-food spot in the Max Becker Drive plaza; the name suggests cheesy, spicy Indian-style fusion food, but the menu is not verified.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "cheezaatar",
-   "name": "Cheezaatar",
+   "name": "CheeZaatar",
    "group": "Middle Eastern",
    "cuisine": "Lebanese manakish bakery",
    "category": "Bakery",
-   "cost": 12,
+   "cost": 14,
    "tier": "$",
    "locations": [
     {
@@ -2378,17 +2135,19 @@
      "area": "Victoria Street North"
     }
    ],
-   "description": "Lebanese-style bakery making manakish flatbreads topped with cheese or za'atar, plus savoury pies.",
+   "description": "Lebanese bakery known for fresh manakish flatbreads with zaatar, cheese or meat, plus wraps, mezze plates and egg pans.",
    "dishes": [
-    "za'atar manakish",
-    "cheese manakish",
-    "savoury pies"
+    "CheeZaatar manakish",
+    "Zaatar manakish",
+    "Lahme bi ajine",
+    "Twisted shawarma wrap"
    ],
    "dietary": [
+    "Vegan options",
     "Vegetarian-friendly"
    ],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://cheezaatar.com/",
+   "unconfirmed": false
   },
   {
    "id": "cheezus-pizza",
@@ -2496,7 +2255,7 @@
    "id": "chickbites",
    "name": "Chickbites",
    "group": "Chicken & Wings",
-   "cuisine": "Fried chicken takeout",
+   "cuisine": "Fried chicken & chicken burgers",
    "category": "Takeout counter",
    "cost": 16,
    "tier": "$",
@@ -2507,28 +2266,7 @@
      "area": "Doon"
     }
    ],
-   "description": "Small takeout counter in south Kitchener serving fried chicken.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "chicken-plus",
-   "name": "Chicken Plus",
-   "group": "Chicken & Wings",
-   "cuisine": "Fried chicken",
-   "category": "Restaurant",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "572 King St N",
-     "city": "Waterloo",
-     "area": "Conestoga Mall"
-    }
-   ],
-   "description": "Fried chicken restaurant in a plaza near Conestoga Mall; the menu is not verified.",
+   "description": "Takeout spot serving fried chicken and chicken burgers, available for delivery in Kitchener.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -2538,9 +2276,9 @@
    "id": "chill-bar-and-grill",
    "name": "Chill Bar & Grill",
    "group": "Pub Fare",
-   "cuisine": "Bar & grill fare",
+   "cuisine": "Sports bar & grill fare",
    "category": "Pub",
-   "cost": 22,
+   "cost": 25,
    "tier": "$$",
    "locations": [
     {
@@ -2549,7 +2287,7 @@
      "area": "Lexington"
     }
    ],
-   "description": "Neighbourhood bar and grill on Bridge St W serving grill and pub-style food; exact menu not confirmed.",
+   "description": "Neighbourhood sports bar in a Bridge Street plaza serving casual bar-and-grill food from late morning until late night.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -2629,6 +2367,31 @@
    "unconfirmed": false
   },
   {
+   "id": "chopan-kabob",
+   "name": "Chopan Kabob",
+   "group": "Persian & Afghan",
+   "cuisine": "Afghan kabobs",
+   "category": "Restaurant",
+   "cost": 25,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "200 Highland Rd W Unit 1",
+     "city": "Kitchener",
+     "area": "Highland West"
+    }
+   ],
+   "description": "Afghan restaurant serving grilled kabobs, charred lamb chops and bolani flatbread stuffed with spiced mashed potato.",
+   "dishes": [
+    "Lamb chops",
+    "Bolani",
+    "Kabobs"
+   ],
+   "dietary": [],
+   "website": "",
+   "unconfirmed": true
+  },
+  {
    "id": "choun-kitchen-and-co",
    "name": "Choun Kitchen & Co.",
    "group": "Other Southeast Asian",
@@ -2690,27 +2453,6 @@
    "unconfirmed": false
   },
   {
-   "id": "city-south-pizza",
-   "name": "City South Pizza",
-   "group": "Pizza",
-   "cuisine": "Takeout pizza",
-   "category": "Takeout counter",
-   "cost": 16,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "4195 King St E",
-     "city": "Kitchener",
-     "area": "Pioneer Park"
-    }
-   ],
-   "description": "Small local takeout pizzeria in south-east Kitchener.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "country-boy-family-restaurant",
    "name": "Country Boy Family Restaurant",
    "group": "Diner & Family",
@@ -2742,7 +2484,7 @@
    "id": "country-girl-family-restaurant",
    "name": "Country Girl Family Restaurant",
    "group": "Diner & Family",
-   "cuisine": "Family restaurant & breakfast",
+   "cuisine": "Family restaurant (breakfast & comfort food)",
    "category": "Diner",
    "cost": 18,
    "tier": "$",
@@ -2753,7 +2495,7 @@
      "area": "Hespeler Road"
     }
    ],
-   "description": "Family-style restaurant on Hespeler Road serving breakfast and diner meals.",
+   "description": "Family restaurant on Hespeler Road; its menu was not confirmed but likely covers breakfast and Canadian comfort dishes.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -2805,33 +2547,12 @@
    "unconfirmed": false
   },
   {
-   "id": "croftland-cafe",
-   "name": "Croftland Cafe",
-   "group": "Café & Bakery",
-   "cuisine": "Café (coffee & light fare)",
-   "category": "Café",
-   "cost": 13,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "20 Queens Sq",
-     "city": "Cambridge",
-     "area": "Galt"
-    }
-   ],
-   "description": "Small café on Queen's Square in downtown Galt; the menu is not confirmed, but it likely serves coffee and light fare.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "crushed-almond-bakery-cafe",
    "name": "Crushed Almond Bakery Cafe",
-   "group": "Turkish",
-   "cuisine": "Turkish bakery & café",
+   "group": "Café & Bakery",
+   "cuisine": "Bakery café",
    "category": "Bakery",
-   "cost": 12,
+   "cost": 13,
    "tier": "$",
    "locations": [
     {
@@ -2840,15 +2561,9 @@
      "area": "Central Frederick"
     }
    ],
-   "description": "Turkish-style bakery café selling baklava, savoury Turkish cheese breads and almond cookies baked daily.",
-   "dishes": [
-    "Baklava",
-    "Turkish cheese bread",
-    "Almond cookies"
-   ],
-   "dietary": [
-    "Vegetarian-friendly"
-   ],
+   "description": "Small bakery café on Frederick Street; its menu and specialties could not be confirmed.",
+   "dishes": [],
+   "dietary": [],
    "website": "",
    "unconfirmed": true
   },
@@ -2921,12 +2636,12 @@
    "unconfirmed": false
   },
   {
-   "id": "curry-culture",
-   "name": "Curry Culture",
+   "id": "curry-culture-bistro",
+   "name": "Curry Culture Bistro",
    "group": "Indian",
-   "cuisine": "North Indian curries & biryani",
+   "cuisine": "North Indian & Indo-Chinese (Hakka)",
    "category": "Restaurant",
-   "cost": 25,
+   "cost": 22,
    "tier": "$$",
    "locations": [
     {
@@ -2935,22 +2650,27 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Small downtown Indian restaurant serving curries and biryani.",
-   "dishes": [],
+   "description": "Downtown Indian bistro serving tandoori specials, biryani, curries, wraps and lunch combos, plus Hakka-style Indo-Chinese dishes and momos.",
+   "dishes": [
+    "Biryani",
+    "Tandoori specials",
+    "Momos",
+    "Lunch combos"
+   ],
    "dietary": [
     "Vegetarian-friendly"
    ],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "curry-square",
    "name": "Curry Square",
    "group": "Indian",
-   "cuisine": "Indian curries (inferred)",
+   "cuisine": "Indian curries",
    "category": "Restaurant",
-   "cost": 18,
-   "tier": "$",
+   "cost": 20,
+   "tier": "$$",
    "locations": [
     {
      "address": "125 Seabrook Dr",
@@ -2958,11 +2678,11 @@
      "area": "South Kitchener"
     }
    ],
-   "description": "Plaza restaurant serving Indian-style curries; specific menu not verified.",
+   "description": "Neighbourhood Indian restaurant in southwest Kitchener serving curries and related dishes for takeout and dine-in.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "cyprianna-s-pizzeria",
@@ -2986,27 +2706,25 @@
    "unconfirmed": false
   },
   {
-   "id": "d-m-c-s-jamaican-patties",
-   "name": "D.M.C's Jamaican Patties",
-   "group": "Caribbean",
-   "cuisine": "Jamaican patties",
+   "id": "dakshin-south-indian-takeout-and-catering",
+   "name": "Dakshin South Indian Takeout & Catering",
+   "group": "Indian",
+   "cuisine": "South Indian (non-vegetarian)",
    "category": "Takeout counter",
-   "cost": 10,
-   "tier": "$",
+   "cost": 20,
+   "tier": "$$",
    "locations": [
     {
-     "address": "415 Veronica Dr",
-     "city": "Kitchener",
-     "area": "Wilson Ave industrial area"
+     "address": "600 Hespeler Rd",
+     "city": "Cambridge",
+     "area": "Hespeler Road"
     }
    ],
-   "description": "Small Kitchener Jamaican patty maker selling patties for takeout.",
-   "dishes": [
-    "Jamaican patties"
-   ],
+   "description": "South Indian takeout and catering kitchen serving meat and vegetarian South Indian dishes; sister to vegetarian Shri Dakshin on Pinebush Rd.",
+   "dishes": [],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://dakshin.ca/dakshin-non-veg-restaurant/",
+   "unconfirmed": false
   },
   {
    "id": "damask-restomarket",
@@ -3123,12 +2841,12 @@
    "unconfirmed": false
   },
   {
-   "id": "delicious-pizza-bakery",
-   "name": "Delicious Pizza Bakery",
+   "id": "delicious-pizza-and-bakery",
+   "name": "Delicious Pizza & Bakery",
    "group": "Pizza",
-   "cuisine": "Pizza & bakery takeout",
-   "category": "Bakery",
-   "cost": 14,
+   "cuisine": "Pizza, panzerotti & chevapi takeout",
+   "category": "Takeout counter",
+   "cost": 15,
    "tier": "$",
    "locations": [
     {
@@ -3137,11 +2855,18 @@
      "area": "Fairway"
     }
    ],
-   "description": "Small Kitchener pizza bakery selling pizza and baked goods for takeout.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "description": "Takeout pizzeria known for regular, gourmet and whole-wheat pizzas, plus panzerotti, wings, subs, homemade burgers and Balkan chevapi.",
+   "dishes": [
+    "Favourite pizzas",
+    "Panzerotti",
+    "Chevapi",
+    "Homemade burger"
+   ],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
+   "website": "https://deliciouspizzabakery.com/",
+   "unconfirmed": false
   },
   {
    "id": "desi-khuraak",
@@ -3196,48 +2921,6 @@
    "unconfirmed": false
   },
   {
-   "id": "dine-stination",
-   "name": "Dine Stination",
-   "group": "Other",
-   "cuisine": "Casual restaurant (cuisine unverified)",
-   "category": "Restaurant",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "170 University Ave W",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Casual restaurant in University Plaza near the universities; its cuisine could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "dirty-birds",
-   "name": "Dirty Birds",
-   "group": "Chicken & Wings",
-   "cuisine": "Fried chicken & wings",
-   "category": "Takeout counter",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "95 Saginaw Pkwy",
-     "city": "Cambridge",
-     "area": "Saginaw"
-    }
-   ],
-   "description": "Fried chicken shop in a Saginaw Parkway plaza serving fried chicken, wings and sides.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "don-julio-tacos-and-tequila-bar",
    "name": "Don Julio Tacos & Tequila Bar",
    "group": "Mexican",
@@ -3287,27 +2970,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "dona-rosinha-tasty-buds",
-   "name": "Dona Rosinha Tasty Buds",
-   "group": "Latin American",
-   "cuisine": "Brazilian savoury snacks & bakery",
-   "category": "Bakery",
-   "cost": 14,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "115 Christopher St",
-     "city": "Cambridge",
-     "area": "Galt"
-    }
-   ],
-   "description": "Brazilian bakery selling savoury snacks and baked goods in an East Galt plaza.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "double-taste-shawarma",
@@ -3395,9 +3057,11 @@
      "area": "Hespeler"
     }
    ],
-   "description": "Neighbourhood bar and bistro in north Cambridge serving pub-style food.",
+   "description": "Neighbourhood bar and bistro in a Hespeler plaza serving casual, inexpensive pub-style food and drinks.",
    "dishes": [],
-   "dietary": [],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
    "website": "",
    "unconfirmed": true
   },
@@ -3405,9 +3069,9 @@
    "id": "dumplings-corner",
    "name": "Dumplings Corner",
    "group": "Chinese",
-   "cuisine": "Chinese dumplings",
-   "category": "Takeout counter",
-   "cost": 15,
+   "cuisine": "Northern Chinese handmade dumplings & noodles",
+   "category": "Restaurant",
+   "cost": 18,
    "tier": "$",
    "locations": [
     {
@@ -3416,11 +3080,16 @@
      "area": "University District"
     }
    ],
-   "description": "Takeout dumpling counter near the University of Waterloo, sharing its premises with a Xing Fu Tang bubble-tea shop.",
-   "dishes": [],
+   "description": "Family-run spot near the University of Waterloo making handmade boiled, pan-fried and chili-oil dumplings, wontons and braised-meat noodle bowls.",
+   "dishes": [
+    "Pork & cabbage dumplings",
+    "Chili oil wontons",
+    "Beijing fried sauce noodles",
+    "Braised beef brisket noodles"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "dwarkesh-indian-cuisine",
@@ -3564,27 +3233,6 @@
    "unconfirmed": false
   },
   {
-   "id": "eclipse-cafe",
-   "name": "Eclipse Cafe",
-   "group": "Café & Bakery",
-   "cuisine": "Café & baked goods",
-   "category": "Café",
-   "cost": 12,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "36 Northfield Dr E",
-     "city": "Waterloo",
-     "area": "Northfield"
-    }
-   ],
-   "description": "Small café and bakery counter in a Northfield Dr plaza serving coffee and baked goods.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "edelweiss-tavern",
    "name": "Edelweiss Tavern",
    "group": "Pub Fare",
@@ -3611,27 +3259,6 @@
    "unconfirmed": false
   },
   {
-   "id": "egg-club",
-   "name": "Egg Club",
-   "group": "Breakfast & Brunch",
-   "cuisine": "Breakfast egg sandwiches",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "308 King St N",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Takeout spot at the 308 King student residence building serving breakfast egg sandwiches and related items.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "egg-roll-king",
    "name": "Egg Roll King",
    "group": "Vietnamese",
@@ -3653,27 +3280,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "eggstatic",
-   "name": "Eggstatic",
-   "group": "Breakfast & Brunch",
-   "cuisine": "Breakfast & brunch",
-   "category": "Restaurant",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "610 Laurelwood Dr",
-     "city": "Waterloo",
-     "area": "Laurelwood"
-    }
-   ],
-   "description": "Breakfast and brunch restaurant in the Laurelwood plaza serving egg dishes and other morning plates.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "ekaa-cocktails-and-cuisine",
@@ -3702,7 +3308,7 @@
    "group": "Latin American",
    "cuisine": "Latin American bakery-café",
    "category": "Bakery",
-   "cost": 12,
+   "cost": 15,
    "tier": "$",
    "locations": [
     {
@@ -3711,11 +3317,11 @@
      "area": "Stanley Park"
     }
    ],
-   "description": "Latin American bakery and café serving baked goods and savoury snacks.",
+   "description": "Small Latin American bakery and café on Weber Street East serving baked goods, snacks and light meals.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "empress-of-india",
@@ -3872,27 +3478,6 @@
    "unconfirmed": false
   },
   {
-   "id": "exclamation-fusion-restaurant",
-   "name": "Exclamation Fusion Restaurant",
-   "group": "Fusion",
-   "cuisine": "Fusion restaurant (menu unconfirmed)",
-   "category": "Restaurant",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "62 Balsam St",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Small fusion restaurant in the Balsam St student plaza near the universities; exact menu not confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "fantastic-wok",
    "name": "Fantastic Wok",
    "group": "Chinese",
@@ -4035,6 +3620,32 @@
    "unconfirmed": false
   },
   {
+   "id": "flawless-jollof-nation",
+   "name": "Flawless Jollof Nation",
+   "group": "African",
+   "cuisine": "Nigerian",
+   "category": "Takeout counter",
+   "cost": 20,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "15 Norfolk Ave",
+     "city": "Cambridge",
+     "area": "Galt"
+    }
+   ],
+   "description": "Nigerian kitchen selling daily meals and catering trays of jollof rice, fried rice, egusi, efo riro and peppered meats.",
+   "dishes": [
+    "Jollof rice",
+    "Egusi",
+    "Efo riro",
+    "Peppered chicken"
+   ],
+   "dietary": [],
+   "website": "https://www.flawlessjollofnation.ca",
+   "unconfirmed": false
+  },
+  {
    "id": "flip-burger",
    "name": "Flip Burger",
    "group": "Burgers",
@@ -4049,7 +3660,7 @@
      "area": "Laurentian Hills"
     }
    ],
-   "description": "Small takeout burger shop serving burgers and fries.",
+   "description": "Burger takeout spot in a Block Line Road plaza serving burgers, fries and casual fast-food sides.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -4059,9 +3670,9 @@
    "id": "fna-fries",
    "name": "FnA Fries",
    "group": "Canadian & Contemporary",
-   "cuisine": "Fries & poutine",
+   "cuisine": "Fries, poutine, burgers & hot dogs",
    "category": "Takeout counter",
-   "cost": 14,
+   "cost": 15,
    "tier": "$",
    "locations": [
     {
@@ -4070,14 +3681,16 @@
      "area": "Hespeler Road"
     }
    ],
-   "description": "Small takeout counter serving fresh-cut fries and poutine with a range of toppings.",
+   "description": "Casual fast-food stand on Hespeler Road known for fries and poutine, also serving burgers, hot dogs, sausages, fish and chips and chicken tenders.",
    "dishes": [
+    "Fries",
     "Poutine",
-    "Loaded fries"
+    "Burgers",
+    "Hot dogs"
    ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.facebook.com/FnaFries/",
+   "unconfirmed": false
   },
   {
    "id": "foodie-fruitie",
@@ -4137,9 +3750,9 @@
    "id": "franklin-pizzeria-and-restaurant",
    "name": "Franklin Pizzeria & Restaurant",
    "group": "Pizza",
-   "cuisine": "Pizza & Italian takeout",
+   "cuisine": "Pizza, wings & pub-style fare",
    "category": "Restaurant",
-   "cost": 20,
+   "cost": 22,
    "tier": "$$",
    "locations": [
     {
@@ -4148,55 +3761,16 @@
      "area": "Kingsdale"
     }
    ],
-   "description": "Neighbourhood pizzeria and restaurant serving pizza and Italian-style dishes for dine-in and takeout.",
-   "dishes": [],
+   "description": "Licensed family-owned pizzeria serving specialty and deep-dish pizzas, wings, sandwiches, poutine and a few European family dishes, for takeout, delivery or dine-in.",
+   "dishes": [
+    "Deep dish pizza",
+    "Stromboli",
+    "Pickle Ranch pizza",
+    "Potato Supreme pizza"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "fratello-pizzeria",
-   "name": "Fratello Pizzeria",
-   "group": "Pizza",
-   "cuisine": "Italian-style pizzeria",
-   "category": "Restaurant",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "84 King St N",
-     "city": "Waterloo",
-     "area": "Uptown Waterloo"
-    }
-   ],
-   "description": "Uptown Waterloo pizzeria serving pizza by the pie for dine-in and takeout.",
-   "dishes": [],
-   "dietary": [
-    "Vegetarian-friendly"
-   ],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "frederick-blues-bar-and-billiards",
-   "name": "Frederick Blues Bar and Billiards",
-   "group": "Pub Fare",
-   "cuisine": "Bar & grill pub food",
-   "category": "Pub",
-   "cost": 22,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "385 Frederick St",
-     "city": "Kitchener",
-     "area": "Central Frederick"
-    }
-   ],
-   "description": "Billiards bar at Frederick Mall serving bar-and-grill pub food alongside pool tables.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "http://franklinpizza.ca/",
+   "unconfirmed": false
   },
   {
    "id": "fresh-ground-cafe",
@@ -4246,11 +3820,11 @@
   {
    "id": "fry-n-chicken",
    "name": "Fry N Chicken",
-   "group": "Chicken & Wings",
-   "cuisine": "Fried chicken takeout",
+   "group": "Korean",
+   "cuisine": "Korean-style halal fried chicken",
    "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
+   "cost": 20,
+   "tier": "$$",
    "locations": [
     {
      "address": "287 King St E",
@@ -4258,39 +3832,25 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Downtown takeout counter selling fried chicken.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "fusion-five",
-   "name": "Fusion Five",
-   "group": "Fusion",
-   "cuisine": "Fusion takeout (menu unconfirmed)",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "1111 Westmount Rd E",
-     "city": "Kitchener",
-     "area": "Country Hills"
-    }
+   "description": "Takeout spot for halal Korean-style fried chicken, with tteokbokki, Korean corn dogs, cheese balls and tempura on the side.",
+   "dishes": [
+    "Boneless Korean fried chicken",
+    "Tteokbokki",
+    "Korean corn dog",
+    "Cheese balls"
    ],
-   "description": "Takeout counter in the Westmount Rd E plaza serving fusion-style dishes; exact menu not confirmed.",
-   "dishes": [],
-   "dietary": [],
+   "dietary": [
+    "Halal"
+   ],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
-   "id": "games-on-tap",
-   "name": "Games On Tap",
-   "group": "Pub Fare",
-   "cuisine": "Games bar & pub food (unverified)",
-   "category": "Pub",
+   "id": "games-on-tap-board-game-cafe",
+   "name": "Games On Tap Board Game Cafe",
+   "group": "Café & Bakery",
+   "cuisine": "Board game café: paninis, flatbread pizza, pot pies",
+   "category": "Café",
    "cost": 20,
    "tier": "$$",
    "locations": [
@@ -4300,15 +3860,24 @@
      "area": "University District"
     }
    ],
-   "description": "Games bar on Weber Street registered as a restaurant, serving pub-style food alongside drinks and games.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "description": "Board game café with over 1,000 games, serving hot-pressed paninis, flatbread pizzas, pot pies, dips and desserts alongside coffee and drinks.",
+   "dishes": [
+    "Chipotle chicken & bacon panini",
+    "Pesto, cheese & za'atar flatbread pizza",
+    "Butter chicken pot pie",
+    "Vegan cashew queso dip"
+   ],
+   "dietary": [
+    "Gluten-free options",
+    "Vegan options",
+    "Vegetarian-friendly"
+   ],
+   "website": "https://gamesontap.ca",
+   "unconfirmed": false
   },
   {
-   "id": "genesis-spanish-restaurant",
-   "name": "Genesis Spanish Restaurant",
+   "id": "genesis-latin-american-restaurant",
+   "name": "Genesis Latin American Restaurant",
    "group": "Latin American",
    "cuisine": "Latin American home cooking",
    "category": "Restaurant",
@@ -4321,11 +3890,11 @@
      "area": "Preston"
     }
    ],
-   "description": "Small Preston restaurant serving Latin American (Spanish-speaking) home-style dishes.",
+   "description": "Small Preston restaurant serving Latin American home-style cooking, formerly known as Genesis Spanish Restaurant.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "george-s-chinese-restaurant",
@@ -4346,30 +3915,6 @@
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "gladiator-burger-and-steak",
-   "name": "Gladiator Burger & Steak",
-   "group": "Burgers",
-   "cuisine": "Burgers & steak sandwiches",
-   "category": "Restaurant",
-   "cost": 22,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "222 Albert St",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Ontario burger shop near Laurier serving loaded burgers and steak sandwiches with fries.",
-   "dishes": [
-    "Burgers",
-    "Steak sandwiches"
-   ],
-   "dietary": [],
-   "website": "https://gladiatorburger.com/",
    "unconfirmed": false
   },
   {
@@ -4446,7 +3991,7 @@
    "id": "gourmet-pizza-cafe",
    "name": "Gourmet Pizza Cafe",
    "group": "Pizza",
-   "cuisine": "Pizza",
+   "cuisine": "European-style stone-oven pizza",
    "category": "Restaurant",
    "cost": 15,
    "tier": "$",
@@ -4457,32 +4002,15 @@
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Pizza spot in Waterloo Town Square serving pizza by the slice and whole pies.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "gourmet-sandwiches",
-   "name": "Gourmet Sandwiches",
-   "group": "Sandwiches & Delis",
-   "cuisine": "Sandwiches",
-   "category": "Deli",
-   "cost": 14,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "95 King St S",
-     "city": "Waterloo",
-     "area": "Uptown Waterloo"
-    }
+   "description": "Family-owned pizza café in Waterloo Town Square, open over 20 years, serving stone-oven European-style pizzas plus sandwiches, salads and appetizers.",
+   "dishes": [
+    "Capricciosa pizza",
+    "Arugula and bocconcini pizza",
+    "Ham & bacon bites"
    ],
-   "description": "Sandwich shop in Uptown Waterloo making made-to-order sandwiches for lunch.",
-   "dishes": [],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "http://www.gourmetpizzacafe.ca",
+   "unconfirmed": false
   },
   {
    "id": "grabb-a-pizza",
@@ -4632,27 +4160,6 @@
    "unconfirmed": false
   },
   {
-   "id": "grey-matlock-bakery",
-   "name": "Grey Matlock Bakery",
-   "group": "Café & Bakery",
-   "cuisine": "Bakery & café",
-   "category": "Bakery",
-   "cost": 12,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "583 King St N",
-     "city": "Waterloo",
-     "area": "Conestoga Mall"
-    }
-   ],
-   "description": "Bakery in a plaza near Conestoga Mall; whether it sells lunch items such as sandwiches is not verified.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "grillado-s",
    "name": "Grillado's",
    "group": "BBQ & Smokehouse",
@@ -4684,10 +4191,10 @@
    "id": "grillies",
    "name": "Grillies",
    "group": "Mexican",
-   "cuisine": "Mexican grill (tacos, fajitas, burgers)",
-   "category": "Restaurant",
-   "cost": 22,
-   "tier": "$$",
+   "cuisine": "Mexican grill: burritos, tacos, bowls and burgers",
+   "category": "Takeout counter",
+   "cost": 18,
+   "tier": "$",
    "locations": [
     {
      "address": "52 King St N",
@@ -4695,11 +4202,18 @@
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Uptown Waterloo grill whose menu appears to cover Mexican-style dishes such as fajitas and enchiladas, plus burgers.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "description": "Casual Uptown Waterloo grill serving Mexican-style burritos, tacos and bowls, plus burgers, poutine and an all-day breakfast burrito menu.",
+   "dishes": [
+    "Burrito",
+    "Tacos",
+    "Monster burger",
+    "Breakfast burrito"
+   ],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
+   "website": "https://www.grillies.ca",
+   "unconfirmed": false
   },
   {
    "id": "grind-house-cafe-and-eatery",
@@ -4893,7 +4407,7 @@
    "id": "harper-s-deli",
    "name": "Harper's Deli",
    "group": "Sandwiches & Delis",
-   "cuisine": "Deli sandwiches",
+   "cuisine": "Deli sandwiches, roast beef and gyros",
    "category": "Deli",
    "cost": 15,
    "tier": "$",
@@ -4904,11 +4418,14 @@
      "area": "Lakeshore"
     }
    ],
-   "description": "Neighbourhood deli in a Davenport Road plaza serving sandwiches and deli lunches.",
-   "dishes": [],
+   "description": "Neighbourhood deli in a Davenport Road plaza making hot and cold sandwiches, including roast beef and gyros, for pickup and delivery.",
+   "dishes": [
+    "Roast beef sandwich",
+    "Gyro"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.harpersdeli.com",
+   "unconfirmed": false
   },
   {
    "id": "hey-chefz",
@@ -4989,8 +4506,8 @@
   {
    "id": "hoang-asian-cuisine",
    "name": "Hoang Asian Cuisine",
-   "group": "Other",
-   "cuisine": "Asian cuisine (menu unconfirmed)",
+   "group": "Vietnamese",
+   "cuisine": "Vietnamese and pan-Asian (inferred)",
    "category": "Restaurant",
    "cost": 20,
    "tier": "$$",
@@ -5001,7 +4518,7 @@
      "area": "Saginaw"
     }
    ],
-   "description": "Asian restaurant in a Saginaw Parkway plaza in north Cambridge; specific dishes could not be confirmed.",
+   "description": "Plaza restaurant on Saginaw Parkway serving Asian dishes, likely Vietnamese-style pho and stir-fries; menu not confirmed.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -5132,33 +4649,12 @@
    "unconfirmed": false
   },
   {
-   "id": "hooland-cafe",
-   "name": "Hooland Cafe",
-   "group": "Chinese",
-   "cuisine": "Hong Kong-style café (inferred)",
-   "category": "Café",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "250 Phillip St",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Asian café near UW whose delivery listings include fried rice, wok dishes, cold noodles, pasta and bubble waffles.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "hop-house",
    "name": "Hop House",
    "group": "Pub Fare",
-   "cuisine": "Bar & pub food (menu unverified)",
+   "cuisine": "Craft beer bar food: smoked meats, tacos, wings",
    "category": "Pub",
-   "cost": 25,
+   "cost": 30,
    "tier": "$$",
    "locations": [
     {
@@ -5167,11 +4663,16 @@
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Uptown Waterloo bar licensed as a restaurant, serving beer and pub-style food; menu could not be confirmed.",
-   "dishes": [],
+   "description": "Uptown craft beer bar with 48 taps and a sports-bar feel, serving wings, tacos, smoked brisket and Montreal smoked meat sandwiches, ribs and nachos.",
+   "dishes": [
+    "Montreal smoked meat sandwich",
+    "Ultimate Hop House Nacho",
+    "BBQ baby back ribs",
+    "Wings"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.hophousewaterloo.com",
+   "unconfirmed": false
   },
   {
    "id": "hot-wok-chinese-restaurant",
@@ -5195,12 +4696,12 @@
    "unconfirmed": false
   },
   {
-   "id": "houkee-chinese-bistro",
-   "name": "Houkee Chinese Bistro",
+   "id": "hou-kee-chinese-bistro",
+   "name": "Hou Kee Chinese Bistro",
    "group": "Chinese",
-   "cuisine": "Chinese takeout",
-   "category": "Takeout counter",
-   "cost": 16,
+   "cuisine": "Chaoshan-style braised pork knuckle rice",
+   "category": "Restaurant",
+   "cost": 18,
    "tier": "$",
    "locations": [
     {
@@ -5209,38 +4710,19 @@
      "area": "University District"
     }
    ],
-   "description": "Chinese takeout counter in University Plaza serving rice, noodle and stir-fry dishes.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "howl-at-the-moon-and-roxanne-s",
-   "name": "Howl At The Moon & Roxanne's",
-   "group": "Pub Fare",
-   "cuisine": "Bar & grill (menu unconfirmed)",
-   "category": "Pub",
-   "cost": 25,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "1271 Victoria St N",
-     "city": "Kitchener",
-     "area": "Bridgeport"
-    }
+   "description": "Chinese spot near the university specializing in Longjiang-style braised pork knuckle over rice and other Cantonese-Chaoshan rice plates.",
+   "dishes": [
+    "Longjiang braised pork knuckle rice"
    ],
-   "description": "Late-night bar and bistro on Victoria Street North with a kitchen; menu details could not be confirmed.",
-   "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
-   "id": "hub-burritos-freakshake-and-paletta",
-   "name": "Hub Burritos, Freakshake and Paletta",
+   "id": "hub-burritos-freak-shake-and-paletta",
+   "name": "Hub Burritos, Freak Shake And Paletta",
    "group": "Mexican",
-   "cuisine": "Burritos, milkshakes & paletas",
+   "cuisine": "Burritos, milkshakes and paletas",
    "category": "Takeout counter",
    "cost": 17,
    "tier": "$",
@@ -5251,14 +4733,15 @@
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Takeout shop serving Mexican-style burritos alongside loaded milkshakes and paletas.",
+   "description": "Takeout and delivery spot serving burritos and quesadillas alongside over-the-top freak shakes and paleta ice pops.",
    "dishes": [
     "Burritos",
-    "Freakshakes"
+    "Oreo freak shake",
+    "Paletas"
    ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "hurry-curry",
@@ -5384,7 +4867,7 @@
    "id": "ipotato",
    "name": "iPotato",
    "group": "Other",
-   "cuisine": "Potato snacks & takeout (unverified)",
+   "cuisine": "Potato snacks and takeout",
    "category": "Takeout counter",
    "cost": 13,
    "tier": "$",
@@ -5395,7 +4878,7 @@
      "area": "University District"
     }
    ],
-   "description": "Takeout counter in University Plaza serving potato-based dishes and snacks, judging by its name.",
+   "description": "Small takeout counter in University Plaza serving potato-based snacks and light meals to students; menu not confirmed.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -5480,6 +4963,34 @@
    "unconfirmed": false
   },
   {
+   "id": "j-c-royal-thai-cuisine",
+   "name": "J.C. Royal Thai Cuisine",
+   "group": "Thai",
+   "cuisine": "Thai",
+   "category": "Restaurant",
+   "cost": 22,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "100 Jamieson Pky",
+     "city": "Cambridge",
+     "area": "Hespeler"
+    }
+   ],
+   "description": "Family-run Thai restaurant in Woodland Park Plaza serving curries, stir-fries, pad thai and fried rice, with $13.99 weekday lunch specials.",
+   "dishes": [
+    "Pad Thai",
+    "Pad Kra Pao",
+    "Royal Thai Red & Green Seafood Curry",
+    "Pineapple Fried Rice"
+   ],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
+   "website": "https://www.jcroyalthai.com",
+   "unconfirmed": false
+  },
+  {
    "id": "java-jax-good-roast-coffee",
    "name": "Java Jax Good Roast Coffee",
    "group": "Café & Bakery",
@@ -5501,12 +5012,12 @@
    "unconfirmed": false
   },
   {
-   "id": "jayalakshmi",
-   "name": "Jayalakshmi",
+   "id": "jayalakshmi-south-indian-cuisine",
+   "name": "Jayalakshmi South Indian Cuisine",
    "group": "Indian",
-   "cuisine": "South Indian (inferred)",
+   "cuisine": "South Indian",
    "category": "Restaurant",
-   "cost": 16,
+   "cost": 18,
    "tier": "$",
    "locations": [
     {
@@ -5515,32 +5026,18 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Downtown Kitchener restaurant whose name suggests South Indian cooking; menu not confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "jc-cattle-co",
-   "name": "JC Cattle Co",
-   "group": "Other",
-   "cuisine": "Farm beef take-out (menu unverified)",
-   "category": "Food hall stall",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "615 King St E",
-     "city": "Cambridge",
-     "area": "Preston"
-    }
+   "description": "South Indian restaurant serving dosas, idli, dum biryani and kothu parotta, liked for good-value takeout.",
+   "dishes": [
+    "Dosa",
+    "Idli",
+    "Dum biryani",
+    "Kothu parotta"
    ],
-   "description": "Beef farm's take-out stall at the seasonal Preston farmers' market in Central Park; exact menu not verified.",
-   "dishes": [],
-   "dietary": [],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "jessie-s-q-bbq",
@@ -5571,10 +5068,10 @@
    "id": "jimmy-s-feed-co",
    "name": "Jimmy's Feed Co.",
    "group": "Sandwiches & Delis",
-   "cuisine": "American comfort food & sandwiches",
+   "cuisine": "Deli sandwiches",
    "category": "Takeout counter",
-   "cost": 20,
-   "tier": "$$",
+   "cost": 14,
+   "tier": "$",
    "locations": [
     {
      "address": "401 Weber St N",
@@ -5582,11 +5079,15 @@
      "area": "Weber St N"
     }
    ],
-   "description": "Takeout serving American-style comfort food and sandwiches, mostly ordered online for pickup and delivery.",
-   "dishes": [],
+   "description": "Local sandwich shop open since 2016, known for big, well-priced numbered sandwiches such as the roast beef and smoked meat Baby Come Back.",
+   "dishes": [
+    "Baby Come Back (roast beef & smoked meat)",
+    "Burnin' Love",
+    "Stayin' Alive"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "jimmy-s-lunch",
@@ -5682,48 +5183,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "jollof-flawless-cuisine",
-   "name": "Jollof Flawless Cuisine",
-   "group": "African",
-   "cuisine": "Nigerian / West African",
-   "category": "Restaurant",
-   "cost": 22,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "15 Norfolk Ave",
-     "city": "Cambridge",
-     "area": "Galt"
-    }
-   ],
-   "description": "Small Nigerian restaurant serving West African dishes such as jollof rice, stews and grilled meats.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "juicy-birds",
-   "name": "Juicy Birds",
-   "group": "Chicken & Wings",
-   "cuisine": "Fried chicken takeout",
-   "category": "Takeout counter",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "220 King St N",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Chicken takeout counter on King St N near the universities.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "jumbo-dragon-chinese-restaurant",
@@ -6108,6 +5567,27 @@
    "unconfirmed": false
   },
   {
+   "id": "khan-baba-peshawari",
+   "name": "Khan Baba Peshawari",
+   "group": "Other South Asian",
+   "cuisine": "Pakistani Peshawari",
+   "category": "Restaurant",
+   "cost": 20,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "800 Franklin Blvd",
+     "city": "Cambridge",
+     "area": "Galt"
+    }
+   ],
+   "description": "Pakistani restaurant serving Peshawar-style halal cooking, such as karahi and grilled meats, in the Franklin Boulevard plaza.",
+   "dishes": [],
+   "dietary": [],
+   "website": "",
+   "unconfirmed": false
+  },
+  {
    "id": "khyber-afghan-grill",
    "name": "Khyber Afghan Grill",
    "group": "Persian & Afghan",
@@ -6163,8 +5643,8 @@
    "id": "kimmeez-island-foodz",
    "name": "Kimmeez Island Foodz",
    "group": "Caribbean",
-   "cuisine": "Caribbean patties & island food",
-   "category": "Bakery",
+   "cuisine": "Caribbean takeout",
+   "category": "Takeout counter",
    "cost": 15,
    "tier": "$",
    "locations": [
@@ -6174,10 +5654,8 @@
      "area": "Galt"
     }
    ],
-   "description": "Caribbean bakery and takeout selling patties and other island food.",
-   "dishes": [
-    "Patties"
-   ],
+   "description": "Small Caribbean takeout spot serving island food such as patties; menu details not confirmed.",
+   "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": true
@@ -6227,6 +5705,35 @@
    "unconfirmed": false
   },
   {
+   "id": "king-katsu",
+   "name": "King Katsu",
+   "group": "Korean",
+   "cuisine": "Korean-Japanese katsu, ramen & kimbap",
+   "category": "Restaurant",
+   "cost": 24,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "14 Duke St E",
+     "city": "Kitchener",
+     "area": "Downtown Kitchener"
+    }
+   ],
+   "description": "Korean-Japanese restaurant in downtown Kitchener's Duke Food Block serving breaded katsu cutlet plates, ramen, kimbap and Korean rice bowls.",
+   "dishes": [
+    "Chicken katsu",
+    "Tonkatsu",
+    "Cheese katsu",
+    "Tonkotsu ramen"
+   ],
+   "dietary": [
+    "Vegan options",
+    "Vegetarian-friendly"
+   ],
+   "website": "",
+   "unconfirmed": false
+  },
+  {
    "id": "king-pizza-and-wings",
    "name": "King Pizza and Wings",
    "group": "Pizza",
@@ -6249,27 +5756,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "king-pot",
-   "name": "King Pot",
-   "group": "Korean",
-   "cuisine": "Hot pot & Korean BBQ",
-   "category": "Restaurant",
-   "cost": 32,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "396 King St N",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Sit-down hot pot and Korean BBQ restaurant on King St N; the address hint ties it to Busan BBQ, a well-reviewed Korean BBQ spot.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "king-street-trio",
@@ -6320,7 +5806,7 @@
    "id": "king-s-indian-kitchen",
    "name": "King's Indian Kitchen",
    "group": "Indian",
-   "cuisine": "North Indian curries",
+   "cuisine": "North Indian",
    "category": "Restaurant",
    "cost": 20,
    "tier": "$$",
@@ -6331,11 +5817,9 @@
      "area": "Galt"
     }
    ],
-   "description": "Newer independent Indian restaurant serving curries, tandoori dishes, rice and naan.",
+   "description": "Independent Indian restaurant serving curries, tandoori dishes, rice and naan; menu not confirmed.",
    "dishes": [],
-   "dietary": [
-    "Vegetarian-friendly"
-   ],
+   "dietary": [],
    "website": "",
    "unconfirmed": true
   },
@@ -6429,6 +5913,34 @@
    "dishes": [],
    "dietary": [],
    "website": "",
+   "unconfirmed": false
+  },
+  {
+   "id": "koh-i-noor-indian-and-nepalese-cuisine",
+   "name": "Koh-I-Noor Indian and Nepalese Cuisine",
+   "group": "Indian",
+   "cuisine": "North Indian, Nepalese & Indo-Chinese",
+   "category": "Restaurant",
+   "cost": 22,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "465 Phillip St Unit 2",
+     "city": "Waterloo",
+     "area": "University District"
+    }
+   ],
+   "description": "Halal Indian restaurant in a Phillip St strip mall serving North Indian curries, Hyderabadi biryani and naan, plus Nepali momo and Indo-Chinese noodles.",
+   "dishes": [
+    "Hyderabadi dum biryani",
+    "Butter chicken",
+    "Garlic naan",
+    "Momo"
+   ],
+   "dietary": [
+    "Halal"
+   ],
+   "website": "http://kohinoor-restaurant.ca/",
    "unconfirmed": false
   },
   {
@@ -6576,27 +6088,6 @@
    "unconfirmed": false
   },
   {
-   "id": "kw-woodfired-cafe",
-   "name": "KW Woodfired Cafe",
-   "group": "Pizza",
-   "cuisine": "Wood-fired food stall (likely pizza)",
-   "category": "Food hall stall",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "615 King St E",
-     "city": "Cambridge",
-     "area": "Preston"
-    }
-   ],
-   "description": "Wood-fired cooking stall at the seasonal Preston farmers' market; the menu, likely pizza, is not verified.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "kypreos-restaurant",
    "name": "Kypreos Restaurant",
    "group": "Greek & Mediterranean",
@@ -6641,27 +6132,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "la-casbah",
-   "name": "La Casbah",
-   "group": "African",
-   "cuisine": "Moroccan / North African (inferred from name)",
-   "category": "Restaurant",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "47 Scott St",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Downtown restaurant whose name points to Moroccan or North African food; menu not verified.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "la-crema-peruvian-restaurant",
@@ -6784,11 +6254,11 @@
   },
   {
    "id": "lala-social-house",
-   "name": "Lala Social House",
-   "group": "Other",
-   "cuisine": "Restaurant & lounge (cuisine unverified)",
+   "name": "LaLa Social House",
+   "group": "Canadian & Contemporary",
+   "cuisine": "Global shared plates & contemporary mains",
    "category": "Restaurant",
-   "cost": 25,
+   "cost": 36,
    "tier": "$$",
    "locations": [
     {
@@ -6797,11 +6267,16 @@
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Restaurant in Uptown Waterloo licensed as a restaurant; its menu and cuisine could not be confirmed.",
-   "dishes": [],
+   "description": "Uptown restaurant and bar serving globally inspired shared plates, skewers, Thai red curry, burgers and fish and chips, with a weekday social hour.",
+   "dishes": [
+    "Lamb galbi skewers",
+    "Thai red curry",
+    "LaLa burger",
+    "Tuna tacos"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://lalasocialhouse.ca/",
+   "unconfirmed": false
   },
   {
    "id": "lancaster-shawarma",
@@ -6863,28 +6338,7 @@
      "area": "Rockway"
     }
    ],
-   "description": "Chinese hot pot restaurant where diners cook meats and vegetables in simmering broth at the table.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "lilmout-lounge",
-   "name": "Lilmout Lounge",
-   "group": "Other",
-   "cuisine": "Lounge with food (menu not verified)",
-   "category": "Restaurant",
-   "cost": 25,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "354 King St N",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Lounge licensed as a restaurant on King St N; what food it serves could not be confirmed.",
+   "description": "Chinese hot pot restaurant where diners cook meats and vegetables in simmering broth at the table; pricing not confirmed.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -6983,25 +6437,28 @@
    "unconfirmed": false
   },
   {
-   "id": "little-pearl-cafe",
-   "name": "Little Pearl Cafe",
-   "group": "Café & Bakery",
-   "cuisine": "Takeout café (menu unconfirmed)",
-   "category": "Café",
-   "cost": 15,
-   "tier": "$",
+   "id": "little-mushroom-dining-lounge",
+   "name": "Little Mushroom Dining Lounge",
+   "group": "Canadian & Contemporary",
+   "cuisine": "Seasonal Ontario lunch & brunch",
+   "category": "Restaurant",
+   "cost": 30,
+   "tier": "$$",
    "locations": [
     {
-     "address": "500 Fischer-Hallman Rd N",
-     "city": "Waterloo",
-     "area": "Laurelwood"
+     "address": "131 Sheldon Dr",
+     "city": "Cambridge",
+     "area": "Preston"
     }
    ],
-   "description": "Small takeout café in west Waterloo; what it serves has not been confirmed.",
-   "dishes": [],
+   "description": "Small industrial-style lounge run by Little Mushroom Catering, serving seasonal scratch-made lunches Thursday and Friday, plus Sunday brunch and afternoon tea.",
+   "dishes": [
+    "Weekly-changing brunch",
+    "Afternoon tea"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "lola-liza-foods-tagpuan",
@@ -7098,27 +6555,6 @@
    "unconfirmed": false
   },
   {
-   "id": "lucero-canteen",
-   "name": "Lucero Canteen",
-   "group": "Other",
-   "cuisine": "Casual canteen (menu unverified)",
-   "category": "Restaurant",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "22 Ontario St N",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Casual downtown Kitchener eatery registered as a restaurant; what it serves could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "lucky-garden-restaurant",
    "name": "Lucky Garden Restaurant",
    "group": "Chinese",
@@ -7161,27 +6597,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "lumberjack-pizza",
-   "name": "Lumberjack Pizza",
-   "group": "Pizza",
-   "cuisine": "Pizza (market stall)",
-   "category": "Food hall stall",
-   "cost": 16,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "11 Tannery St E",
-     "city": "Cambridge",
-     "area": "Hespeler"
-    }
-   ],
-   "description": "Pizza vendor at the Hespeler Village Market.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "la-la-bakeshop",
@@ -7254,27 +6669,6 @@
    "unconfirmed": false
   },
   {
-   "id": "macro-foods",
-   "name": "Macro Foods",
-   "group": "Other",
-   "cuisine": "Healthy macro-counted meals (menu unverified)",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "95 King St S",
-     "city": "Waterloo",
-     "area": "Uptown Waterloo"
-    }
-   ],
-   "description": "Takeout in Uptown Waterloo whose name suggests macro-balanced healthy meals; menu could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "mad-over-spices",
    "name": "Mad Over Spices",
    "group": "Indian",
@@ -7299,9 +6693,9 @@
   },
   {
    "id": "mad-pizza",
-   "name": "Mad Pizza",
+   "name": "MAD Pizza",
    "group": "Pizza",
-   "cuisine": "Takeout pizza",
+   "cuisine": "New York-style pizza",
    "category": "Takeout counter",
    "cost": 15,
    "tier": "$",
@@ -7312,11 +6706,14 @@
      "area": "Conestoga Mall"
     }
    ],
-   "description": "Takeout pizza shop in a plaza near Conestoga Mall serving pizza by the pie and slice.",
-   "dishes": [],
+   "description": "Waterloo pizza shop making New York-style pies and slices; reviewers praise its house-made dipping sauce.",
+   "dishes": [
+    "New York-style pizza",
+    "House-made dipping sauce"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "madhu-s-roti-and-doubles",
@@ -7482,6 +6879,56 @@
    "unconfirmed": false
   },
   {
+   "id": "manitou-take-out",
+   "name": "Manitou Take-Out",
+   "group": "Burgers",
+   "cuisine": "Chip-wagon burgers, fries & fish and chips",
+   "category": "Takeout counter",
+   "cost": 15,
+   "tier": "$",
+   "locations": [
+    {
+     "address": "808 Courtland Ave E",
+     "city": "Kitchener",
+     "area": "Fairview"
+    }
+   ],
+   "description": "Long-running chip wagon on Courtland Avenue serving fresh-cut fries, poutine, burgers, footlong hot dogs and fish and chips for takeout.",
+   "dishes": [
+    "Fresh-cut fries",
+    "Poutine",
+    "Fish and chips",
+    "Footlong hot dogs"
+   ],
+   "dietary": [],
+   "website": "https://manitoutakeout.com",
+   "unconfirmed": false
+  },
+  {
+   "id": "manna-s-food-express",
+   "name": "Manna's Food Express",
+   "group": "Indian",
+   "cuisine": "Hyderabadi biryani, North & South Indian",
+   "category": "Takeout counter",
+   "cost": 20,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "150 Victoria St N",
+     "city": "Kitchener",
+     "area": "Downtown Kitchener"
+    }
+   ],
+   "description": "Indian takeout focused on Hyderabadi biryani, with North and South Indian curries, snacks such as samosas, and Indo-Chinese dishes.",
+   "dishes": [
+    "Hyderabadi Biryani",
+    "Samosa"
+   ],
+   "dietary": [],
+   "website": "",
+   "unconfirmed": true
+  },
+  {
    "id": "marhaba-shawarma",
    "name": "Marhaba Shawarma",
    "group": "Middle Eastern",
@@ -7496,14 +6943,14 @@
      "area": "University District"
     }
    ],
-   "description": "Shawarma shop serving chicken and beef shawarma wraps and plates.",
+   "description": "Waterloo shawarma shop serving chicken and beef shawarma wraps, plates and salads for takeout and delivery.",
    "dishes": [
     "Chicken shawarma wrap",
     "Shawarma plate"
    ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "market-pizza-and-pasta-place",
@@ -7708,6 +7155,11 @@
      "address": "140 University Ave W",
      "city": "Waterloo",
      "area": "University District"
+    },
+    {
+     "address": "645 Westmount Rd E",
+     "city": "Kitchener",
+     "area": "Laurentian Hills"
     }
    ],
    "description": "Long-running student diner near UW known for all-day breakfast, burgers and milkshakes.",
@@ -7715,30 +7167,6 @@
     "All-day breakfast",
     "Burgers",
     "Milkshakes"
-   ],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "mel-s-diner-off-campus",
-   "name": "Mel's Diner Off Campus",
-   "group": "Diner & Family",
-   "cuisine": "Classic diner breakfast & burgers",
-   "category": "Diner",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "645 Westmount Rd E",
-     "city": "Kitchener",
-     "area": "Laurentian Hills"
-    }
-   ],
-   "description": "Kitchener offshoot of Waterloo's Mel's Diner, serving all-day breakfast, burgers and other diner plates.",
-   "dishes": [
-    "All-day breakfast",
-    "Burgers"
    ],
    "dietary": [],
    "website": "",
@@ -7819,29 +7247,6 @@
    "unconfirmed": false
   },
   {
-   "id": "mezze-house",
-   "name": "Mezze House",
-   "group": "Middle Eastern",
-   "cuisine": "Middle Eastern mezze & shawarma",
-   "category": "Restaurant",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "584 Weber St N",
-     "city": "Waterloo",
-     "area": "Weber St N"
-    }
-   ],
-   "description": "Middle Eastern restaurant serving mezze, shawarma and grilled plates.",
-   "dishes": [],
-   "dietary": [
-    "Vegetarian-friendly"
-   ],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "mi-tienda-latina",
    "name": "Mi Tienda Latina",
    "group": "Latin American",
@@ -7905,27 +7310,6 @@
    "unconfirmed": false
   },
   {
-   "id": "midnight-run-cafe",
-   "name": "Midnight Run Cafe",
-   "group": "Café & Bakery",
-   "cuisine": "Café (menu unconfirmed)",
-   "category": "Café",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "84 King St N",
-     "city": "Waterloo",
-     "area": "Uptown Waterloo"
-    }
-   ],
-   "description": "Uptown Waterloo café licensed as a restaurant; its food offering has not been confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "miga-japanese-and-korean-restaurant",
    "name": "Miga Japanese & Korean Restaurant",
    "group": "Korean",
@@ -7938,33 +7322,17 @@
      "address": "354 King St N",
      "city": "Waterloo",
      "area": "University District"
-    }
-   ],
-   "description": "Casual Korean and Japanese restaurant serving Korean dishes such as bibimbap and stews alongside sushi and other Japanese plates.",
-   "dishes": [
-    "Bibimbap"
-   ],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "miga-waterloo-japanese-and-korean-restaurant",
-   "name": "Miga Waterloo Japanese and Korean Restaurant",
-   "group": "Japanese",
-   "cuisine": "Sushi & Korean dishes",
-   "category": "Restaurant",
-   "cost": 22,
-   "tier": "$$",
-   "locations": [
+    },
     {
      "address": "94 Bridgeport Rd E",
      "city": "Waterloo",
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Uptown Waterloo restaurant serving sushi and Japanese dishes alongside Korean favourites.",
-   "dishes": [],
+   "description": "Casual Korean and Japanese restaurant serving Korean dishes such as bibimbap and stews alongside sushi and other Japanese plates.",
+   "dishes": [
+    "Bibimbap"
+   ],
    "dietary": [],
    "website": "",
    "unconfirmed": false
@@ -8016,6 +7384,32 @@
    "unconfirmed": false
   },
   {
+   "id": "mimo-thai-kitchen",
+   "name": "MiMO Thai Kitchen",
+   "group": "Thai",
+   "cuisine": "Thai (with some Lao/Vietnamese dishes)",
+   "category": "Restaurant",
+   "cost": 18,
+   "tier": "$",
+   "locations": [
+    {
+     "address": "104-318 Spruce St",
+     "city": "Waterloo",
+     "area": "University District"
+    }
+   ],
+   "description": "Small, student-friendly Thai spot near the universities, known for pad thai, yellow and panang curries, and Thai iced tea, with student discounts.",
+   "dishes": [
+    "Pad Thai",
+    "Yellow Curry",
+    "Tom Kha",
+    "Thai Iced Tea"
+   ],
+   "dietary": [],
+   "website": "",
+   "unconfirmed": false
+  },
+  {
    "id": "ming-s-chinese-restaurant",
    "name": "Ming's Chinese Restaurant",
    "group": "Chinese",
@@ -8040,7 +7434,7 @@
    "id": "mizu-restaurant",
    "name": "Mizu Restaurant",
    "group": "Chinese",
-   "cuisine": "Modern Chinese & omurice",
+   "cuisine": "Chinese",
    "category": "Restaurant",
    "cost": 20,
    "tier": "$$",
@@ -8051,10 +7445,8 @@
      "area": "University District"
     }
    ],
-   "description": "Student-area Asian restaurant near UW serving modern Chinese dishes, and reviewers single out its omurice.",
-   "dishes": [
-    "Omurice"
-   ],
+   "description": "Chinese restaurant near the University of Waterloo serving Chinese dishes to a largely student crowd.",
+   "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": true
@@ -8081,27 +7473,6 @@
    "unconfirmed": false
   },
   {
-   "id": "mo-s-kitchen",
-   "name": "Mo's Kitchen",
-   "group": "Other",
-   "cuisine": "Home-style takeout (cuisine unverified)",
-   "category": "Takeout counter",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "728 King St E",
-     "city": "Cambridge",
-     "area": "Preston"
-    }
-   ],
-   "description": "Preston takeout kitchen linked to Modus Delight Catering, serving home-style cooked meals; cuisine not verified.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "molly-bloom-s-irish-pub",
    "name": "Molly Bloom's Irish Pub",
    "group": "Pub Fare",
@@ -8124,27 +7495,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "mom-s-bread-and-pie-co",
-   "name": "Mom's Bread and Pie Co.",
-   "group": "Café & Bakery",
-   "cuisine": "Bakery: savoury & sweet pies",
-   "category": "Bakery",
-   "cost": 12,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "562 King St E",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Bakery making breads and savoury and sweet pies.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "mom-s-pan-fried-bun",
@@ -8196,10 +7546,10 @@
    "unconfirmed": false
   },
   {
-   "id": "momoya-japanese-restaurant",
-   "name": "Momoya Japanese Restaurant",
+   "id": "momoya",
+   "name": "Momoya",
    "group": "Japanese",
-   "cuisine": "Japanese sushi & rice dishes",
+   "cuisine": "Japanese sushi & tonkatsu",
    "category": "Restaurant",
    "cost": 20,
    "tier": "$$",
@@ -8210,11 +7560,14 @@
      "area": "University District"
     }
    ],
-   "description": "Japanese restaurant in the student plaza near UW serving sushi and Japanese rice and noodle dishes.",
-   "dishes": [],
+   "description": "Japanese restaurant in the plaza by the University of Waterloo serving sushi rolls, tonkatsu and other Japanese rice dishes.",
+   "dishes": [
+    "Tonkatsu",
+    "Sushi rolls"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "moose-winooski-s",
@@ -8245,7 +7598,7 @@
    "id": "morsels-cafe",
    "name": "Morsels Cafe",
    "group": "Café & Bakery",
-   "cuisine": "Cafe lunches & sandwiches",
+   "cuisine": "Café lunches & sandwiches",
    "category": "Café",
    "cost": 15,
    "tier": "$",
@@ -8256,7 +7609,7 @@
      "area": "Galt"
     }
    ],
-   "description": "Small downtown Galt cafe serving coffee, sandwiches and simple lunch plates.",
+   "description": "Weekday daytime café in Galt serving coffee and light lunches.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -8310,27 +7663,6 @@
    "dietary": [
     "Vegetarian-friendly"
    ],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "mr-singh-s-pizza",
-   "name": "Mr. Singh's Pizza",
-   "group": "Pizza",
-   "cuisine": "Pizza with Indian-style toppings",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "1401 River Rd E",
-     "city": "Kitchener",
-     "area": "Chicopee"
-    }
-   ],
-   "description": "Takeout pizzeria known for pizzas with Indian-style toppings and spice blends.",
-   "dishes": [],
-   "dietary": [],
    "website": "",
    "unconfirmed": false
   },
@@ -8622,25 +7954,32 @@
    "unconfirmed": false
   },
   {
-   "id": "naughty-chickken",
-   "name": "Naughty Chickken",
-   "group": "Chicken & Wings",
-   "cuisine": "Fried chicken",
+   "id": "nev-turkish-cuisine",
+   "name": "NEV Turkish Cuisine",
+   "group": "Turkish",
+   "cuisine": "Turkish kebabs, pide & lahmacun",
    "category": "Restaurant",
-   "cost": 16,
-   "tier": "$",
+   "cost": 30,
+   "tier": "$$",
    "locations": [
     {
-     "address": "65 University Ave E",
+     "address": "400 The Boardwalk",
      "city": "Waterloo",
-     "area": "University District"
+     "area": "The Boardwalk"
     }
    ],
-   "description": "Chicken restaurant on University Avenue East serving fried chicken, judging by its name.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "description": "Turkish restaurant at The Boardwalk serving Adana and shish kebabs, iskender, oven-baked pide and lahmacun, plus Turkish breakfast.",
+   "dishes": [
+    "Adana kebab",
+    "Iskender",
+    "Pide",
+    "Lahmacun"
+   ],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
+   "website": "https://www.nevturkishcuisine.com",
+   "unconfirmed": false
   },
   {
    "id": "new-china-kitchen",
@@ -8687,27 +8026,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "nibble-and-nosh",
-   "name": "Nibble & Nosh",
-   "group": "Café & Bakery",
-   "cuisine": "Café snacks & light bites (inferred)",
-   "category": "Café",
-   "cost": 14,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "741 King St W",
-     "city": "Kitchener",
-     "area": "Midtown Kitchener"
-    }
-   ],
-   "description": "Small takeout counter in the Bright Building on King St W, apparently serving snacks and light bites.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "nilkanth-kathiyawadi-and-gujarati-restaurant",
@@ -8862,27 +8180,6 @@
    "unconfirmed": false
   },
   {
-   "id": "odd-duck-wine-and-provisions",
-   "name": "Odd Duck Wine & Provisions",
-   "group": "Canadian & Contemporary",
-   "cuisine": "Wine bar small plates",
-   "category": "Restaurant",
-   "cost": 35,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "93 Ontario St S",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Downtown Kitchener wine bar serving small plates and shareable provisions alongside its wine list.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "oka-sushi",
    "name": "Oka Sushi",
    "group": "Japanese",
@@ -8982,31 +8279,10 @@
    "unconfirmed": false
   },
   {
-   "id": "onnuri",
-   "name": "Onnuri",
-   "group": "Korean",
-   "cuisine": "Korean",
-   "category": "Restaurant",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "140 University Ave W",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Korean restaurant in the plaza near the University of Waterloo serving Korean rice and noodle dishes.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "onnuri-korean-restaurant",
    "name": "Onnuri Korean Restaurant",
    "group": "Korean",
-   "cuisine": "Korean",
+   "cuisine": "Korean (fried chicken, rice and noodle dishes)",
    "category": "Restaurant",
    "cost": 22,
    "tier": "$$",
@@ -9015,13 +8291,20 @@
      "address": "108 Garment St",
      "city": "Kitchener",
      "area": "Downtown Kitchener"
+    },
+    {
+     "address": "140 University Ave W",
+     "city": "Waterloo",
+     "area": "University District"
     }
    ],
-   "description": "Korean restaurant in the Innovation District serving Korean rice, noodle and meat dishes.",
-   "dishes": [],
+   "description": "Korean restaurant on the ground floor of a condo building in the Innovation District, known for Korean fried chicken alongside rice and noodle dishes.",
+   "dishes": [
+    "Korean fried chicken"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "oscar-s-restaurant-and-pizzeria",
@@ -9083,7 +8366,7 @@
      "area": "Highland West"
     }
    ],
-   "description": "Sports lounge with a licensed kitchen, likely serving bar food during games.",
+   "description": "Sports lounge in the Hazelglen Drive plaza showing games, with bar food; its food menu has not been verified.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -9187,10 +8470,10 @@
   {
    "id": "papou-s-place",
    "name": "Papou's Place",
-   "group": "Greek & Mediterranean",
-   "cuisine": "Greek-style takeout (unverified)",
-   "category": "Takeout counter",
-   "cost": 16,
+   "group": "Sandwiches & Delis",
+   "cuisine": "Submarine sandwiches & deli",
+   "category": "Deli",
+   "cost": 15,
    "tier": "$",
    "locations": [
     {
@@ -9199,11 +8482,13 @@
      "area": "Galt"
     }
    ],
-   "description": "Small Galt takeout spot, likely serving Greek-style fast food; menu not verified.",
-   "dishes": [],
+   "description": "Cambridge sub and deli shop with outlets in Galt and Hespeler, making made-to-order submarine sandwiches.",
+   "dishes": [
+    "Submarine sandwiches"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "paranthe-wali-gali",
@@ -9230,48 +8515,6 @@
    ],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "park-inn",
-   "name": "Park Inn",
-   "group": "Chinese",
-   "cuisine": "Chinese-Canadian takeout",
-   "category": "Takeout counter",
-   "cost": 16,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "50 Young St",
-     "city": "Waterloo",
-     "area": "Uptown Waterloo"
-    }
-   ],
-   "description": "Small Uptown Waterloo takeout serving Chinese-Canadian dishes (unverified).",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "pasha-resto-lounge",
-   "name": "Pasha Resto Lounge",
-   "group": "Middle Eastern",
-   "cuisine": "Middle Eastern restaurant-lounge",
-   "category": "Restaurant",
-   "cost": 25,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "253 King St N",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Restaurant and lounge near Wilfrid Laurier University; the name points to Middle Eastern or Turkish food, but the menu is not verified.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "penny-s-hot-chicken",
@@ -9347,31 +8590,6 @@
    "unconfirmed": false
   },
   {
-   "id": "philthy-philly-s",
-   "name": "Philthy Philly's",
-   "group": "Sandwiches & Delis",
-   "cuisine": "Philly cheesesteaks & sandwiches",
-   "category": "Takeout counter",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "600 Hespeler Rd",
-     "city": "Cambridge",
-     "area": "Hespeler Road"
-    }
-   ],
-   "description": "Counter-service shop serving Philly cheesesteaks, pulled pork sandwiches, chicken sandwiches and burgers.",
-   "dishes": [
-    "Philly cheesesteak",
-    "Pulled pork sandwich",
-    "Broad St. burger"
-   ],
-   "dietary": [],
-   "website": "https://philthyphillys.com",
-   "unconfirmed": false
-  },
-  {
    "id": "pho-68-kitchen-and-lounge",
    "name": "Pho 68 Kitchen & Lounge",
    "group": "Vietnamese",
@@ -9389,29 +8607,6 @@
    "description": "Newer Vietnamese restaurant and lounge serving pho and Vietnamese mains, with a cocktail bar.",
    "dishes": [
     "Beef pho"
-   ],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "pho-anh-vu",
-   "name": "Pho Anh Vu",
-   "group": "Vietnamese",
-   "cuisine": "Vietnamese pho",
-   "category": "Restaurant",
-   "cost": 16,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "170 University Ave",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Inexpensive Vietnamese restaurant near the University of Waterloo serving pho and other noodle dishes.",
-   "dishes": [
-    "Pho"
    ],
    "dietary": [],
    "website": "",
@@ -9595,27 +8790,6 @@
    "unconfirmed": false
   },
   {
-   "id": "pink-crow-cafe",
-   "name": "Pink Crow Cafe",
-   "group": "Café & Bakery",
-   "cuisine": "Café with light meals",
-   "category": "Café",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "30 William St W",
-     "city": "Waterloo",
-     "area": "Uptown Waterloo"
-    }
-   ],
-   "description": "Uptown Waterloo café serving coffee and light food; menu not verified.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "piper-arms",
    "name": "Piper Arms",
    "group": "Pub Fare",
@@ -9628,34 +8802,15 @@
      "address": "75 King St S",
      "city": "Waterloo",
      "area": "Uptown Waterloo"
-    }
-   ],
-   "description": "Scottish-themed pub in Waterloo Town Square, sister to the Guelph original, serving pub classics like fish and chips and burgers.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "piper-arms-pub",
-   "name": "Piper Arms Pub",
-   "group": "Pub Fare",
-   "cuisine": "British pub fare",
-   "category": "Pub",
-   "cost": 25,
-   "tier": "$$",
-   "locations": [
+    },
     {
      "address": "4391 King St E",
      "city": "Kitchener",
      "area": "Sportsworld"
     }
    ],
-   "description": "British-style pub serving fish and chips and other classic pub dishes.",
-   "dishes": [
-    "Fish and chips",
-    "Shepherd's pie"
-   ],
+   "description": "Scottish-themed pub in Waterloo Town Square, sister to the Guelph original, serving pub classics like fish and chips and burgers.",
+   "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": false
@@ -9684,8 +8839,8 @@
   {
    "id": "pita-factory",
    "name": "Pita Factory",
-   "group": "Middle Eastern",
-   "cuisine": "Pita wraps & shawarma",
+   "group": "Greek & Mediterranean",
+   "cuisine": "Mediterranean pitas & wraps",
    "category": "Takeout counter",
    "cost": 14,
    "tier": "$",
@@ -9696,11 +8851,15 @@
      "area": "Highland West"
     }
    ],
-   "description": "Takeout counter serving pita wraps and shawarma-style plates.",
-   "dishes": [],
+   "description": "Counter in Highland Centre plaza serving Mediterranean-style stuffed pitas, wraps and salads.",
+   "dishes": [
+    "Pitas",
+    "Wraps",
+    "Salads"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "pita-guy-wrap-and-roll",
@@ -9764,17 +8923,17 @@
      "area": "Stanley Park"
     }
    ],
-   "description": "Neighbourhood pizza shop on Weber Street East offering takeout and delivery pizza.",
+   "description": "Franchise pizzeria on Weber Street East with a small dining area, offering takeout and delivery pizza.",
    "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": true
   },
   {
-   "id": "pizza-and-pastries-plus",
-   "name": "Pizza and Pastries Plus",
+   "id": "pizza-and-pastry-plus",
+   "name": "Pizza and Pastry Plus",
    "group": "Pizza",
-   "cuisine": "Takeout pizza & pastries",
+   "cuisine": "Takeout pizza",
    "category": "Takeout counter",
    "cost": 12,
    "tier": "$",
@@ -9785,11 +8944,11 @@
      "area": "Mount Hope"
     }
    ],
-   "description": "Takeout shop selling pizza along with baked pastries.",
+   "description": "Neighbourhood pizzeria on Victoria Street North offering takeout pizza.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "pizza-cravin",
@@ -9863,6 +9022,32 @@
    "unconfirmed": false
   },
   {
+   "id": "pizza-fratello",
+   "name": "Pizza Fratello",
+   "group": "Pizza",
+   "cuisine": "Pizza & wings takeout",
+   "category": "Takeout counter",
+   "cost": 16,
+   "tier": "$",
+   "locations": [
+    {
+     "address": "84 King St N",
+     "city": "Waterloo",
+     "area": "Uptown Waterloo"
+    }
+   ],
+   "description": "Uptown Waterloo pizzeria offering build-your-own and specialty pizzas, wings and garlic bread for pickup and delivery at low prices.",
+   "dishes": [
+    "Build-your-own pizza",
+    "Beer Lovers pizza",
+    "Wings",
+    "Garlic bread"
+   ],
+   "dietary": [],
+   "website": "https://fratello-pizza.com/",
+   "unconfirmed": false
+  },
+  {
    "id": "pizza-prosciutto",
    "name": "Pizza Prosciutto",
    "group": "Pizza",
@@ -9898,11 +9083,11 @@
      "area": "Laurentian West"
     }
    ],
-   "description": "Neighbourhood pizza takeout shop on Activa Avenue.",
+   "description": "Neighbourhood pizzeria on Activa Avenue in southwest Kitchener offering takeout and delivery pizza.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "pizzeria-la-terrazza",
@@ -9984,32 +9169,15 @@
      "area": "Victoria Street North"
     }
    ],
-   "description": "Indoor golf simulator venue with a sports bar and grill menu.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "plutus-greek-food",
-   "name": "Plutus Greek Food",
-   "group": "Greek & Mediterranean",
-   "cuisine": "Greek takeout (souvlaki, gyros)",
-   "category": "Takeout counter",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "247 King St N",
-     "city": "Waterloo",
-     "area": "University District"
-    }
+   "description": "Indoor golf simulator venue whose Clubhouse Kitchen & Bar serves made-to-order pub food such as burgers, nachos and flatbread pizza.",
+   "dishes": [
+    "Bogey Burger",
+    "Stadium Nachos",
+    "Flatbread pizza"
    ],
-   "description": "Greek takeout near King St N and University Ave serving souvlaki, gyros and Greek plates.",
-   "dishes": [],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://indoorgolfclubs.ca",
+   "unconfirmed": false
   },
   {
    "id": "poketopia",
@@ -10026,19 +9194,19 @@
      "area": "University District"
     }
    ],
-   "description": "Poke counter near UW serving build-your-own raw fish and rice bowls.",
+   "description": "Poke shop in the plaza near the University of Waterloo serving build-your-own raw fish poke bowls.",
    "dishes": [
     "Poke bowls"
    ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "pop-s-and-ruby-s-tap-and-grill",
    "name": "Pop's & Ruby's Tap & Grill",
    "group": "Pub Fare",
-   "cuisine": "Tap & grill pub fare",
+   "cuisine": "Bar & grill pub fare",
    "category": "Pub",
    "cost": 25,
    "tier": "$$",
@@ -10049,32 +9217,14 @@
      "area": "Preston"
     }
    ],
-   "description": "Tap and grill serving pub fare such as burgers, wings and sandwiches with draft beer.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "poppy-s-bagels",
-   "name": "Poppy's Bagels",
-   "group": "Café & Bakery",
-   "cuisine": "Bagels & bagel sandwiches",
-   "category": "Takeout counter",
-   "cost": 13,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "550 King St N",
-     "city": "Waterloo",
-     "area": "Conestoga Mall"
-    }
+   "description": "Neighbourhood tap and grill in Preston serving pub food, best known for chicken wings, with pool and karaoke.",
+   "dishes": [
+    "Chicken wings",
+    "Spring rolls"
    ],
-   "description": "Bagel counter at Conestoga Mall selling bagels with spreads and bagel sandwiches.",
-   "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "poppy-s-bagels-and-bakery",
@@ -10148,7 +9298,7 @@
    "id": "princess-cafe",
    "name": "Princess Cafe",
    "group": "Café & Bakery",
-   "cuisine": "Café with light meals",
+   "cuisine": "Café with panini, soups and sandwiches",
    "category": "Café",
    "cost": 18,
    "tier": "$",
@@ -10159,11 +9309,15 @@
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Café attached to the Princess Twin cinema in Uptown Waterloo, serving coffee and drinks with a small food menu.",
-   "dishes": [],
+   "description": "Café inside the Princess Twin cinema serving rotating soups, panini, salads, quiche, pastries and coffee, plus craft beer.",
+   "dishes": [
+    "Panini",
+    "Soup of the day",
+    "Quiche"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "prohibition-warehouse",
@@ -10193,12 +9347,12 @@
    "unconfirmed": false
   },
   {
-   "id": "proof-kitchen-and-lounge",
-   "name": "Proof Kitchen and Lounge",
+   "id": "proof-kitchen-lounge",
+   "name": "Proof Kitchen + Lounge",
    "group": "Canadian & Contemporary",
-   "cuisine": "Contemporary Canadian kitchen & lounge",
+   "cuisine": "Contemporary Canadian hotel restaurant and lounge",
    "category": "Restaurant",
-   "cost": 35,
+   "cost": 38,
    "tier": "$$",
    "locations": [
     {
@@ -10207,11 +9361,11 @@
      "area": "Uptown Waterloo"
     }
    ],
-   "description": "Kitchen and lounge at the Delta Hotels Waterloo serving contemporary Canadian plates, burgers and shareables with cocktails.",
+   "description": "Restaurant and lounge in the Delta Hotels Waterloo, serving contemporary Canadian dishes with local ingredients for breakfast, lunch and dinner, plus cocktails and craft beer.",
    "dishes": [],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.marriott.com/en-us/hotels/ykfdw-delta-hotels-waterloo/dining/",
+   "unconfirmed": false
   },
   {
    "id": "pub-on-king",
@@ -10293,7 +9447,7 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Salvadoran restaurant serving pupusas.",
+   "description": "Salvadoran spot serving pupusas and other Central American dishes.",
    "dishes": [
     "Pupusas"
    ],
@@ -10368,34 +9522,15 @@
      "address": "645 Westmount Rd E",
      "city": "Kitchener",
      "area": "Laurentian Hills"
-    }
-   ],
-   "description": "Small local pizza chain with shops on Lancaster St W, Westmount Rd E and in Elmira, serving takeout and delivery pizza.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "pyramid-pizza-and-wings",
-   "name": "Pyramid Pizza & Wings",
-   "group": "Pizza",
-   "cuisine": "Pizza & wings",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
+    },
     {
      "address": "1095 Weber St E",
      "city": "Kitchener",
      "area": "Stanley Park"
     }
    ],
-   "description": "Small Kitchener-Waterloo pizza brand serving pizza and chicken wings for takeout and delivery.",
-   "dishes": [
-    "pizza",
-    "chicken wings"
-   ],
+   "description": "Small local pizza chain with shops on Lancaster St W, Westmount Rd E and in Elmira, serving takeout and delivery pizza.",
+   "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": false
@@ -10651,7 +9786,7 @@
    "group": "Pub Fare",
    "cuisine": "Sports bar pub fare",
    "category": "Pub",
-   "cost": 20,
+   "cost": 22,
    "tier": "$$",
    "locations": [
     {
@@ -10660,54 +9795,34 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Sports bar and billiards hall that likely serves bar food such as wings and burgers.",
+   "description": "Sports bar and billiards hall in the former McCabe's space, serving pub food such as wings and burgers.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
-   "id": "red-ginger",
-   "name": "Red Ginger",
-   "group": "Other",
-   "cuisine": "Asian (cuisine unverified)",
+   "id": "red-ginger-modern-thai-and-viet-cuisine",
+   "name": "Red Ginger Modern Thai & Viet Cuisine",
+   "group": "Thai",
+   "cuisine": "Modern Thai and Vietnamese",
    "category": "Restaurant",
-   "cost": 18,
-   "tier": "$",
+   "cost": 22,
+   "tier": "$$",
    "locations": [
     {
      "address": "646 Erb St W",
      "city": "Waterloo",
      "area": "Laurelwood"
-    }
-   ],
-   "description": "Restaurant in a west Waterloo Erb Street plaza; its exact cuisine could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "red-ginger-modern-thai-viet-cuisine",
-   "name": "Red Ginger Modern Thai + Viet Cuisine",
-   "group": "Thai",
-   "cuisine": "Thai & Vietnamese",
-   "category": "Restaurant",
-   "cost": 20,
-   "tier": "$$",
-   "locations": [
+    },
     {
      "address": "465 Highland Rd W",
      "city": "Kitchener",
      "area": "Highland West"
     }
    ],
-   "description": "Thai and Vietnamese restaurant serving pad thai, curries and pho, noted for reasonable prices and generous portions.",
-   "dishes": [
-    "Pad thai",
-    "Pho",
-    "Thai curry"
-   ],
+   "description": "Thai and Vietnamese restaurant serving curries, noodle and rice dishes, with a sister location in Kitchener.",
+   "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": false
@@ -10823,7 +9938,7 @@
    "id": "rob-s-burger-wagon",
    "name": "Rob's Burger Wagon",
    "group": "Burgers",
-   "cuisine": "Chip-wagon burgers & fries",
+   "cuisine": "Chip-wagon burgers and fries",
    "category": "Takeout counter",
    "cost": 15,
    "tier": "$",
@@ -10834,19 +9949,43 @@
      "area": "Cambridge"
     }
    ],
-   "description": "Burger wagon serving grilled burgers and fries for takeout.",
+   "description": "Food wagon serving burgers and fries.",
    "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": true
   },
   {
+   "id": "rock-paper-scissors-chinese-restaurant",
+   "name": "Rock Paper Scissors Chinese Restaurant",
+   "group": "Chinese",
+   "cuisine": "Chinese malatang & noodle soups",
+   "category": "Restaurant",
+   "cost": 20,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "181 Lester St",
+     "city": "Waterloo",
+     "area": "University District"
+    }
+   ],
+   "description": "Lester St Chinese spot near the universities known for build-your-own Ma La Tang spicy soup combos and noodle soups.",
+   "dishes": [
+    "Ma La Tang combo",
+    "Noodle soup"
+   ],
+   "dietary": [],
+   "website": "",
+   "unconfirmed": false
+  },
+  {
    "id": "rommana-cafe",
    "name": "Rommana Cafe",
    "group": "Middle Eastern",
-   "cuisine": "Middle Eastern café (inferred)",
+   "cuisine": "Middle Eastern café",
    "category": "Café",
-   "cost": 14,
+   "cost": 15,
    "tier": "$",
    "locations": [
     {
@@ -10855,17 +9994,17 @@
      "area": "Lancaster St W"
     }
    ],
-   "description": "Lancaster St W takeout café whose name points to Middle Eastern food; menu not confirmed.",
+   "description": "New Middle Eastern-style café in Kitchener serving coffee drinks and light café food.",
    "dishes": [],
    "dietary": [],
    "website": "",
    "unconfirmed": true
   },
   {
-   "id": "roosters",
-   "name": "Roosters",
+   "id": "roosters-fried-chicken-and-more",
+   "name": "Roosters Fried Chicken & More",
    "group": "Chicken & Wings",
-   "cuisine": "Chicken (cuisine unverified)",
+   "cuisine": "Fried chicken",
    "category": "Restaurant",
    "cost": 17,
    "tier": "$",
@@ -10876,19 +10015,21 @@
      "area": "University District"
     }
    ],
-   "description": "Restaurant in the Campus Court plaza that appears to specialize in chicken dishes, judging by its name.",
-   "dishes": [],
+   "description": "Fried chicken spot near the University of Waterloo serving fried chicken meals and sides.",
+   "dishes": [
+    "Fried chicken"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "rose-cafe",
    "name": "Rose Cafe",
-   "group": "Café & Bakery",
-   "cuisine": "Café (menu unconfirmed)",
+   "group": "Middle Eastern",
+   "cuisine": "Middle Eastern-inspired café and brunch",
    "category": "Café",
-   "cost": 12,
+   "cost": 18,
    "tier": "$",
    "locations": [
     {
@@ -10897,32 +10038,44 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Small downtown takeout café. Its menu could not be confirmed.",
-   "dishes": [],
+   "description": "Middle Eastern-inspired café serving brunch toasts, pastries and specialty lattes, known for za'atar French toast and rose pistachio cake.",
+   "dishes": [
+    "Za'atar French toast",
+    "Pink hummus toast",
+    "Rose pistachio cake",
+    "Lavender latte"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
-   "id": "rosel-s",
-   "name": "Rosel's",
-   "group": "Other",
-   "cuisine": "Takeout (cuisine unconfirmed)",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
+   "id": "rosel-s-authentic-filipino-food",
+   "name": "Rosel's Authentic Filipino Food",
+   "group": "Filipino",
+   "cuisine": "Filipino home-style",
+   "category": "Restaurant",
+   "cost": 24,
+   "tier": "$$",
    "locations": [
     {
-     "address": "210 King St N",
+     "address": "220 King St N",
      "city": "Waterloo",
      "area": "University District"
     }
    ],
-   "description": "Small takeout counter on King St N near the universities; its cuisine has not been confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "description": "Filipino restaurant that grew out of a 2019 pop-up, serving lumpia, adobo, sisig, lechon kawali, pancit and silog rice plates.",
+   "dishes": [
+    "Lechon Kawali",
+    "Crispy Kare Kare",
+    "Pancit Palabok",
+    "Lumpia"
+   ],
+   "dietary": [
+    "Gluten-free options"
+   ],
+   "website": "https://www.rosels.ca/",
+   "unconfirmed": false
   },
   {
    "id": "rosie-s-burgers",
@@ -10970,10 +10123,10 @@
    "unconfirmed": false
   },
   {
-   "id": "royal-gourmet-indian",
-   "name": "Royal Gourmet Indian",
+   "id": "royal-gourmet-indian-kitchen",
+   "name": "Royal Gourmet Indian Kitchen",
    "group": "Indian",
-   "cuisine": "North Indian curries & tandoor",
+   "cuisine": "North Indian curries and tandoor",
    "category": "Restaurant",
    "cost": 22,
    "tier": "$$",
@@ -10984,13 +10137,13 @@
      "area": "Southwest Kitchener"
     }
    ],
-   "description": "Indian restaurant serving curries, tandoori dishes, biryani and naan.",
+   "description": "Indian kitchen serving North Indian curries, tandoori dishes, biryani and naan, for takeout and delivery.",
    "dishes": [],
    "dietary": [
     "Vegetarian-friendly"
    ],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "royal-indian-buffet-and-sweets",
@@ -11065,7 +10218,7 @@
   },
   {
    "id": "s-and-n-pizza-house",
-   "name": "S&N Pizza House",
+   "name": "S & N Pizza House",
    "group": "Pizza",
    "cuisine": "Takeout pizza",
    "category": "Takeout counter",
@@ -11078,11 +10231,11 @@
      "area": "Northfield"
     }
    ],
-   "description": "Neighbourhood takeout pizza shop on Northfield Drive serving pizzas for pickup and delivery.",
+   "description": "Neighbourhood takeout pizzeria in north Waterloo serving pizza.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "saffron-indian-and-hakka-chinese-cuisine",
@@ -11218,6 +10371,34 @@
    "unconfirmed": false
   },
   {
+   "id": "san-francisco-panini",
+   "name": "San Francisco Panini",
+   "group": "Sandwiches & Delis",
+   "cuisine": "Italian hot & cold sandwiches",
+   "category": "Deli",
+   "cost": 17,
+   "tier": "$",
+   "locations": [
+    {
+     "address": "45 Duke St W",
+     "city": "Kitchener",
+     "area": "Downtown Kitchener"
+    }
+   ],
+   "description": "Long-running downtown Kitchener Italian sandwich shop serving hot veal, chicken and steak sandwiches in house tomato sauce, cold Italian-meat sandwiches and simple pastas.",
+   "dishes": [
+    "Veal cutlet sandwich",
+    "Chicken cutlet sandwich",
+    "Steak with onion sandwich",
+    "Eggplant parmesan sandwich"
+   ],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
+   "website": "https://www.sanfranciscopanini.ca",
+   "unconfirmed": false
+  },
+  {
    "id": "sardar-ji",
    "name": "Sardar Ji",
    "group": "Indian",
@@ -11241,31 +10422,10 @@
    "unconfirmed": false
   },
   {
-   "id": "sattva",
-   "name": "Sattva",
-   "group": "Indian",
-   "cuisine": "Indian, likely vegetarian (inferred)",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "200 Lorraine Ave",
-     "city": "Kitchener",
-     "area": "Stanley Park"
-    }
-   ],
-   "description": "Takeout at the Lorraine Ave plaza whose name suggests Indian vegetarian food; menu not confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "say-cheese-restaurant",
    "name": "Say Cheese Restaurant",
    "group": "Diner & Family",
-   "cuisine": "Casual restaurant (cuisine unverified)",
+   "cuisine": "Casual family restaurant",
    "category": "Restaurant",
    "cost": 18,
    "tier": "$",
@@ -11276,7 +10436,7 @@
      "area": "Preston"
     }
    ],
-   "description": "Small casual independent restaurant on Westminster Drive; its menu could not be verified.",
+   "description": "Casual neighbourhood restaurant in Preston.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -11284,11 +10444,11 @@
   },
   {
    "id": "sazon-mexi-can",
-   "name": "Sazon Mexi/Can",
+   "name": "Sazon Mexi Can",
    "group": "Mexican",
-   "cuisine": "Mexican-Canadian",
+   "cuisine": "Mexican and Canadian",
    "category": "Restaurant",
-   "cost": 20,
+   "cost": 25,
    "tier": "$$",
    "locations": [
     {
@@ -11297,17 +10457,22 @@
      "area": "Hespeler"
     }
    ],
-   "description": "Small Hespeler Village restaurant serving Mexican dishes with a Mexican-Canadian twist.",
-   "dishes": [],
+   "description": "Hespeler Village restaurant serving Mexican tacos such as birria and cochinita pibil alongside Canadian pub plates like burgers, wings and fish and chips.",
+   "dishes": [
+    "Beef birria tacos",
+    "Cochinita pibil tacos",
+    "Fish tacos",
+    "Choriqueso"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.sazonmexican.com",
+   "unconfirmed": false
   },
   {
    "id": "selame-injera",
    "name": "Selame Injera",
    "group": "African",
-   "cuisine": "Ethiopian / Eritrean injera & stews",
+   "cuisine": "Ethiopian / Eritrean injera",
    "category": "Restaurant",
    "cost": 18,
    "tier": "$",
@@ -11318,7 +10483,7 @@
      "area": "Central Kitchener"
     }
    ],
-   "description": "Small Ethiopian/Eritrean spot centred on injera, likely served with stews and sold to take home.",
+   "description": "Small Ethiopian/Eritrean food business on Gage Avenue centred on injera flatbread, likely served with stews and sold to take home.",
    "dishes": [
     "Injera"
    ],
@@ -11376,27 +10541,6 @@
    "unconfirmed": false
   },
   {
-   "id": "shaghf-cafe",
-   "name": "Shaghf Cafe",
-   "group": "Middle Eastern",
-   "cuisine": "Middle Eastern café (menu unverified)",
-   "category": "Café",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "220 King St N",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Arabic-named café and takeout on King St N near University Ave; menu not confirmed, likely Middle Eastern café fare.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "shakti-the-sandwich-shop",
    "name": "Shakti the Sandwich Shop",
    "group": "Sandwiches & Delis",
@@ -11411,7 +10555,7 @@
      "area": "Fairview"
     }
    ],
-   "description": "Small sandwich shop in the Manitou Drive plaza near Fairway Road; its menu may lean Indian-style vegetarian, but this is not confirmed.",
+   "description": "Small sandwich shop in the Manitou Drive plaza, which it shares with Om India Food Centre; its menu may lean Indian-style but is unconfirmed.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -11421,7 +10565,7 @@
    "id": "shawarma-trap",
    "name": "Shawarma Trap",
    "group": "Middle Eastern",
-   "cuisine": "Shawarma",
+   "cuisine": "Shawarma, wraps & burgers",
    "category": "Takeout counter",
    "cost": 16,
    "tier": "$",
@@ -11432,11 +10576,14 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Downtown takeout counter serving shawarma wraps and plates.",
-   "dishes": [],
+   "description": "Downtown Kitchener takeout counter serving shawarma wraps and plates, along with burgers and salads for delivery.",
+   "dishes": [
+    "Shawarma wrap",
+    "Shawarma plate"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "shawerma-plus",
@@ -11555,10 +10702,10 @@
   },
   {
    "id": "shishalicious-cafe-and-resto",
-   "name": "Shishalicious Cafe and Resto",
+   "name": "Shishalicious Cafe & Resto",
    "group": "Middle Eastern",
-   "cuisine": "Mediterranean grill & shisha café",
-   "category": "Café",
+   "cuisine": "Halal Middle Eastern grill & shisha café",
+   "category": "Restaurant",
    "cost": 22,
    "tier": "$$",
    "locations": [
@@ -11568,36 +10715,18 @@
      "area": "Country Hills"
     }
    ],
-   "description": "Shisha café and restaurant on Ottawa Street South serving Mediterranean and Greek-style grill plates and wraps.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "shiva-s-coffee-bar",
-   "name": "Shiva's Coffee Bar",
-   "group": "Indian",
-   "cuisine": "South Indian tiffin, snacks & chai",
-   "category": "Café",
-   "cost": 12,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "2880 King St E",
-     "city": "Kitchener",
-     "area": "Fairview"
-    }
-   ],
-   "description": "Small café serving South Indian tiffin dishes, Indian snacks and chai.",
+   "description": "Halal Middle Eastern café-restaurant on Ottawa Street South serving grilled plates, wraps and dips, known for shish tawook and falafel.",
    "dishes": [
-    "Chai"
+    "Shish tawook",
+    "Falafel sandwich plate",
+    "Roasted pepper dip"
    ],
    "dietary": [
+    "Halal",
     "Vegetarian-friendly"
    ],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "shiva-s-dosa-restaurant",
@@ -11626,27 +10755,6 @@
    "unconfirmed": false
   },
   {
-   "id": "shobu-sushi-and-palgong-tea",
-   "name": "Shobu Sushi & Palgong Tea",
-   "group": "Japanese",
-   "cuisine": "Sushi takeout with bubble tea",
-   "category": "Takeout counter",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "124 Seabrook Dr",
-     "city": "Kitchener",
-     "area": "South Kitchener"
-    }
-   ],
-   "description": "Takeout counter selling sushi and rolls alongside Palgong bubble tea drinks.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "shree-hari-kitchen",
    "name": "Shree Hari Kitchen",
    "group": "Indian",
@@ -11667,6 +10775,35 @@
     "Vegetarian-friendly"
    ],
    "website": "",
+   "unconfirmed": false
+  },
+  {
+   "id": "shri-dakshin",
+   "name": "Shri Dakshin",
+   "group": "Indian",
+   "cuisine": "South Indian vegetarian (dosa)",
+   "category": "Restaurant",
+   "cost": 22,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "75 Pinebush Rd Unit 600",
+     "city": "Cambridge",
+     "area": "Pinebush"
+    }
+   ],
+   "description": "Vegetarian South Indian restaurant serving many kinds of dosa, idli-vada, Andhra meals and Madras coffee, with vegan and Jain options on request.",
+   "dishes": [
+    "Gun Powder Masala Dosa",
+    "Mysore Masala Dosa",
+    "Sambar Vada",
+    "Kuzhi Paniyaram"
+   ],
+   "dietary": [
+    "Vegan options",
+    "Vegetarian-friendly"
+   ],
+   "website": "https://dakshin.ca/veg-restaurant/",
    "unconfirmed": false
   },
   {
@@ -11692,27 +10829,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "silva-s-portuguese-bakery",
-   "name": "Silva's Portuguese Bakery",
-   "group": "Portuguese",
-   "cuisine": "Portuguese bakery",
-   "category": "Bakery",
-   "cost": 12,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "45 Mclaren Ave",
-     "city": "Cambridge",
-     "area": "Galt"
-    }
-   ],
-   "description": "Portuguese bakery selling breads, pastries and savoury baked goods.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "silver-spoon-caribbean-restaurant",
@@ -11880,6 +10996,30 @@
    "unconfirmed": false
   },
   {
+   "id": "snack-brazuca",
+   "name": "Snack Brazuca",
+   "group": "Latin American",
+   "cuisine": "Brazilian snacks (coxinhas, pastéis)",
+   "category": "Takeout counter",
+   "cost": 15,
+   "tier": "$",
+   "locations": [
+    {
+     "address": "12 Oxford St",
+     "city": "Cambridge",
+     "area": "Galt"
+    }
+   ],
+   "description": "Small Brazilian snack counter in Galt selling fried savoury salgados such as coxinhas and pastéis for takeout and delivery.",
+   "dishes": [
+    "Coxinha",
+    "Pastel"
+   ],
+   "dietary": [],
+   "website": "",
+   "unconfirmed": true
+  },
+  {
    "id": "soi-thaifoon",
    "name": "Soi Thaifoon",
    "group": "Thai",
@@ -11906,42 +11046,21 @@
    "unconfirmed": false
   },
   {
-   "id": "solarien-cafe",
-   "name": "Solarien Cafe",
-   "group": "Café & Bakery",
-   "cuisine": "Café (menu unverified)",
-   "category": "Café",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "960 King St E",
-     "city": "Cambridge",
-     "area": "Preston"
-    }
-   ],
-   "description": "Small Preston café licensed as a restaurant; menu and food offerings not verified.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "somewhere-garden",
-   "name": "Somewhere Garden",
-   "group": "Other",
-   "cuisine": "Restaurant (cuisine unverified)",
+   "id": "solo-restaurant-and-bar",
+   "name": "Solo Restaurant & Bar",
+   "group": "African",
+   "cuisine": "East African",
    "category": "Restaurant",
    "cost": 25,
    "tier": "$$",
    "locations": [
     {
-     "address": "191 King St S",
-     "city": "Waterloo",
-     "area": "Uptown Waterloo"
+     "address": "91 Queen St S",
+     "city": "Kitchener",
+     "area": "Downtown Kitchener"
     }
    ],
-   "description": "Restaurant at the south end of Uptown Waterloo; its menu and cuisine could not be confirmed.",
+   "description": "Downtown Kitchener restaurant and bar serving East African dishes, also listed as Zara African Restaurant on Queen Street South.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -11986,7 +11105,7 @@
      "area": "Forest Hill"
     }
    ],
-   "description": "Burger takeout shop serving burgers and fries.",
+   "description": "Burger takeout shop in the Fischer-Hallman Road plaza serving burgers and fries.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -12043,7 +11162,7 @@
    "name": "Souvlaki Grill",
    "group": "Greek & Mediterranean",
    "cuisine": "Greek souvlaki & pitas",
-   "category": "Takeout counter",
+   "category": "Restaurant",
    "cost": 18,
    "tier": "$",
    "locations": [
@@ -12053,11 +11172,14 @@
      "area": "Forest Heights"
     }
    ],
-   "description": "Neighbourhood Greek grill serving souvlaki, gyros and pitas.",
-   "dishes": [],
+   "description": "Neighbourhood Greek grill in the Greenbrook plaza serving souvlaki, gyros and pitas.",
+   "dishes": [
+    "Souvlaki",
+    "Gyro pita"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "sowon-korea-dining",
@@ -12097,11 +11219,9 @@
      "area": "Laurentian West"
     }
    ],
-   "description": "Indian takeout spot serving curries, rice dishes and snacks.",
+   "description": "Indian takeout spot in the Fischer-Hallman Road plaza serving curries, rice dishes and snacks.",
    "dishes": [],
-   "dietary": [
-    "Vegetarian-friendly"
-   ],
+   "dietary": [],
    "website": "",
    "unconfirmed": true
   },
@@ -12120,7 +11240,7 @@
      "area": "Galt"
     }
    ],
-   "description": "Portuguese sports bar serving Portuguese bar food and grilled dishes alongside televised sports.",
+   "description": "Portuguese neighbourhood sports bar serving Portuguese bar food and grilled dishes alongside televised sports.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -12153,27 +11273,6 @@
    "unconfirmed": false
   },
   {
-   "id": "st-george-restaurant",
-   "name": "St. George Restaurant",
-   "group": "Other",
-   "cuisine": "Restaurant (cuisine unverified)",
-   "category": "Restaurant",
-   "cost": 25,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "665 King St N",
-     "city": "Waterloo",
-     "area": "Conestoga Mall area"
-    }
-   ],
-   "description": "Restaurant on King St N in north Waterloo; its menu and cuisine could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
    "id": "strykerz-kitchen-and-bar",
    "name": "StrykerZ Kitchen & Bar",
    "group": "Pub Fare",
@@ -12193,27 +11292,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "sultans-mediterranean-grill",
-   "name": "Sultans Mediterranean Grill",
-   "group": "Middle Eastern",
-   "cuisine": "Shawarma & Mediterranean grill",
-   "category": "Takeout counter",
-   "cost": 17,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "253 King St N",
-     "city": "Waterloo",
-     "area": "University District"
-    }
-   ],
-   "description": "Takeout Mediterranean grill serving shawarma wraps, rice plates and grilled meats near Wilfrid Laurier University.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "sun-pizza-and-wings",
@@ -12238,27 +11316,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "sunrise-grill",
-   "name": "Sunrise Grill",
-   "group": "Other",
-   "cuisine": "Grill takeout (menu unverified)",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "1400 Ottawa St S",
-     "city": "Kitchener",
-     "area": "Sunrise Centre"
-    }
-   ],
-   "description": "Takeout grill in the Sunrise Centre plaza; what it serves could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "super-shawarma",
@@ -12353,6 +11410,31 @@
    "unconfirmed": false
   },
   {
+   "id": "sushi-star",
+   "name": "Sushi Star",
+   "group": "Japanese",
+   "cuisine": "All-you-can-eat sushi & Japanese",
+   "category": "Restaurant",
+   "cost": 38,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "4281 King St E",
+     "city": "Kitchener",
+     "area": "Deer Ridge"
+    }
+   ],
+   "description": "All-you-can-eat Japanese restaurant in southeast Kitchener serving sushi, sashimi, tempura, noodles and fried rice at lunch and dinner.",
+   "dishes": [
+    "AYCE sushi",
+    "Sashimi",
+    "Tempura"
+   ],
+   "dietary": [],
+   "website": "https://sushistarcanada.com/",
+   "unconfirmed": false
+  },
+  {
    "id": "sweet-and-savoury-pie-company",
    "name": "Sweet & Savoury Pie Company",
    "group": "Café & Bakery",
@@ -12365,6 +11447,11 @@
      "address": "94 King St S",
      "city": "Waterloo",
      "area": "Uptown Waterloo"
+    },
+    {
+     "address": "263 Northfield Dr E",
+     "city": "Waterloo",
+     "area": "Northfield"
     }
    ],
    "description": "Uptown Waterloo pie shop selling savoury meat and vegetable pies to take away, plus sweet dessert pies.",
@@ -12372,27 +11459,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "sweet-and-savoury-pie-co",
-   "name": "Sweet and Savoury Pie Co.",
-   "group": "Café & Bakery",
-   "cuisine": "Savoury meat pies & fruit pies",
-   "category": "Bakery",
-   "cost": 14,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "263 Northfield Dr E",
-     "city": "Waterloo",
-     "area": "Northfield"
-    }
-   ],
-   "description": "Pie bakery selling savoury meat pies that work as a takeaway lunch, plus sweet fruit pies.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "tamasha-bar-indian-kitchen",
@@ -12487,6 +11553,11 @@
      "address": "154 Victoria St",
      "city": "Kitchener",
      "area": "Downtown Kitchener"
+    },
+    {
+     "address": "60 Frederick St",
+     "city": "Kitchener",
+     "area": "Downtown Kitchener"
     }
    ],
    "description": "Budget Korean spot serving bibimbap, japchae and Korean fried chicken, plus some sushi.",
@@ -12494,31 +11565,6 @@
     "Bibimbap",
     "Japchae",
     "Korean fried chicken"
-   ],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "taste-of-seoul-express",
-   "name": "Taste of Seoul Express",
-   "group": "Korean",
-   "cuisine": "Korean & Japanese quick meals",
-   "category": "Takeout counter",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "60 Frederick St",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Express counter of Taste of Seoul in the DTK building serving bibimbap, poke, sushi, udon and onigiri.",
-   "dishes": [
-    "Bibimbap",
-    "Poke",
-    "Onigiri"
    ],
    "dietary": [],
    "website": "",
@@ -12539,7 +11585,7 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Ukrainian deli selling prepared Eastern European foods for takeout.",
+   "description": "Small downtown deli selling prepared Eastern European foods for takeout; its menu and current status are unconfirmed.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -12564,6 +11610,34 @@
    "dishes": [],
    "dietary": [],
    "website": "",
+   "unconfirmed": false
+  },
+  {
+   "id": "terroir-artisan-bakery",
+   "name": "Terroir Artisan Bakery",
+   "group": "Café & Bakery",
+   "cuisine": "Sourdough bakery café",
+   "category": "Bakery",
+   "cost": 22,
+   "tier": "$$",
+   "locations": [
+    {
+     "address": "215 Queen St W Unit A100",
+     "city": "Cambridge",
+     "area": "Hespeler"
+    }
+   ],
+   "description": "Chef-run Hespeler Village sourdough bakery café serving viennoiserie, savoury sandwiches such as jambon beurre and loaded focaccia, and espresso drinks.",
+   "dishes": [
+    "Maple Morning Bun",
+    "Jambon Beurre",
+    "Italian Style Sando",
+    "Benchmark Sourdough"
+   ],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
+   "website": "https://www.terroirartisanbakery.ca/",
    "unconfirmed": false
   },
   {
@@ -12710,8 +11784,8 @@
    "unconfirmed": false
   },
   {
-   "id": "the-bench-warmer",
-   "name": "The Bench Warmer",
+   "id": "the-benchwarmer-sports-bar",
+   "name": "The Benchwarmer Sports Bar",
    "group": "Pub Fare",
    "cuisine": "Sports bar & grill",
    "category": "Pub",
@@ -12724,17 +11798,17 @@
      "area": "East Waterloo"
     }
    ],
-   "description": "Sports bar and grill at the RIM Park complex serving pub fare such as burgers and wings.",
+   "description": "Licensed sports bar and restaurant with a summer patio inside RIM Park's Manulife Sportsplex, serving pub fare during peak programming times.",
    "dishes": [],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "the-bent-elbow",
    "name": "The Bent Elbow",
    "group": "Pub Fare",
-   "cuisine": "Neighbourhood pub (burgers, wings)",
+   "cuisine": "Craft beer pub with house-made pub food",
    "category": "Pub",
    "cost": 25,
    "tier": "$$",
@@ -12745,11 +11819,14 @@
      "area": "Centreville"
     }
    ],
-   "description": "Neighbourhood pub on King St E serving burgers, wings and standard pub fare.",
-   "dishes": [],
+   "description": "Strip-mall craft beer pub with dozens of taps and a cask engine; the owner cooks pub food in-house, such as wings and grilled cheese.",
+   "dishes": [
+    "Wings with homemade blue cheese dressing",
+    "Grilled cheese with horseradish mustard mayo"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.facebook.com/thebentelbowkitchener/",
+   "unconfirmed": false
   },
   {
    "id": "the-big-slice",
@@ -12764,26 +11841,7 @@
      "address": "30 Glamis Rd",
      "city": "Cambridge",
      "area": "Hespeler Road"
-    }
-   ],
-   "description": "Takeout pizzeria selling large pizza slices, whole pies and fried chicken.",
-   "dishes": [
-    "Pizza slices",
-    "Fried chicken"
-   ],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "the-big-slice-pizza-and-chicken",
-   "name": "The Big Slice Pizza & Chicken",
-   "group": "Pizza",
-   "cuisine": "Pizza & fried chicken",
-   "category": "Takeout counter",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
+    },
     {
      "address": "3101 Kingsway Dr",
      "city": "Kitchener",
@@ -12795,11 +11853,14 @@
      "area": "Lexington"
     }
    ],
-   "description": "Takeout pizzeria near Fairview Park selling pizza by the slice or pie, plus fried chicken.",
-   "dishes": [],
+   "description": "Takeout pizzeria selling large pizza slices, whole pies and fried chicken.",
+   "dishes": [
+    "Pizza slices",
+    "Fried chicken"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "the-biryani-barrel",
@@ -12862,7 +11923,7 @@
    "id": "the-bishop-s-brew-cafe",
    "name": "The Bishop's Brew Cafe",
    "group": "Café & Bakery",
-   "cuisine": "Coffee & light cafe meals",
+   "cuisine": "Coffee & light café meals",
    "category": "Café",
    "cost": 14,
    "tier": "$",
@@ -12873,7 +11934,7 @@
      "area": "Hespeler"
     }
    ],
-   "description": "Hespeler Village cafe serving coffee with light meals such as sandwiches and baked goods.",
+   "description": "Cozy café in the heart of Hespeler Village serving coffee and light bites, popular for studying and meeting friends.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -13131,8 +12192,8 @@
    "id": "the-daily-grill",
    "name": "The Daily Grill",
    "group": "Diner & Family",
-   "cuisine": "Grill & casual North American fare",
-   "category": "Restaurant",
+   "cuisine": "Family diner: breakfast, burgers & comfort dinners",
+   "category": "Diner",
    "cost": 18,
    "tier": "$",
    "locations": [
@@ -13142,11 +12203,16 @@
      "area": "Lakeshore"
     }
    ],
-   "description": "Small independent grill restaurant on Davenport Road in north Waterloo serving casual North American dishes.",
-   "dishes": [],
+   "description": "Long-running family restaurant near Conestoga Mall known for big breakfasts, plus burgers, souvlaki, schnitzel and fish and chips.",
+   "dishes": [
+    "Breakfast specials",
+    "Belgian waffles",
+    "Chicken souvlaki",
+    "Schnitzel"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.facebook.com/pages/Daily-Grill-The/129553583743768",
+   "unconfirmed": false
   },
   {
    "id": "the-duke-of-wellington",
@@ -13233,30 +12299,6 @@
    ],
    "description": "Burger takeout in the Balsam St student plaza near the universities.",
    "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "the-fiddle-and-firkin",
-   "name": "The Fiddle & Firkin",
-   "group": "British & Irish",
-   "cuisine": "British pub fare",
-   "category": "Pub",
-   "cost": 27,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "710 King St E",
-     "city": "Cambridge",
-     "area": "Preston"
-    }
-   ],
-   "description": "Independent British-style pub in Preston serving pub classics such as fish and chips and shepherd's pie.",
-   "dishes": [
-    "Fish & chips",
-    "Shepherd's pie"
-   ],
    "dietary": [],
    "website": "",
    "unconfirmed": false
@@ -13389,7 +12431,7 @@
    "id": "the-grand-trunk-saloon",
    "name": "The Grand Trunk Saloon",
    "group": "Pub Fare",
-   "cuisine": "Saloon bar food",
+   "cuisine": "Bar food at a whisky & cocktail saloon",
    "category": "Pub",
    "cost": 28,
    "tier": "$$",
@@ -13400,32 +12442,11 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Whiskey and cocktail saloon that also serves bar food.",
+   "description": "Downtown whisky and cocktail saloon with a full food menu of bar dishes and happy-hour specials.",
    "dishes": [],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "the-grove-cafe",
-   "name": "The Grove Cafe",
-   "group": "Café & Bakery",
-   "cuisine": "Café (light meals, menu unconfirmed)",
-   "category": "Café",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "295 Lancaster St W",
-     "city": "Kitchener",
-     "area": "Lancaster St W"
-    }
-   ],
-   "description": "Neighbourhood café on Lancaster St W registered as a restaurant; its menu is not confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.grandtrunksaloon.com",
+   "unconfirmed": false
   },
   {
    "id": "the-healthy-owl-bakery-cafe",
@@ -13461,7 +12482,7 @@
    "id": "the-humble-lotus",
    "name": "The Humble Lotus",
    "group": "Japanese",
-   "cuisine": "Sushi & Asian takeout",
+   "cuisine": "Sushi & Vietnamese",
    "category": "Takeout counter",
    "cost": 20,
    "tier": "$$",
@@ -13472,11 +12493,13 @@
      "area": "Downtown Kitchener"
     }
    ],
-   "description": "Small takeout serving sushi and other Asian dishes.",
-   "dishes": [],
+   "description": "Small downtown takeout spot whose menu is mostly sushi rolls and Vietnamese-style dishes, also available on delivery apps.",
+   "dishes": [
+    "Sushi rolls"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "the-indian-street",
@@ -13493,11 +12516,9 @@
      "area": "Forest Hill"
     }
    ],
-   "description": "Takeout counter serving Indian street snacks and quick curry meals.",
+   "description": "Takeout counter serving Indian street snacks and quick curry meals; its menu and current status are unconfirmed.",
    "dishes": [],
-   "dietary": [
-    "Vegetarian-friendly"
-   ],
+   "dietary": [],
    "website": "",
    "unconfirmed": true
   },
@@ -13529,9 +12550,9 @@
    "id": "the-java-garden",
    "name": "The Java Garden",
    "group": "Café & Bakery",
-   "cuisine": "Café (coffee & light fare)",
+   "cuisine": "Café (coffee & light lunch fare)",
    "category": "Café",
-   "cost": 12,
+   "cost": 13,
    "tier": "$",
    "locations": [
     {
@@ -13540,28 +12561,7 @@
      "area": "Laurelwood"
     }
    ],
-   "description": "Neighbourhood café in the Laurelwood plaza serving coffee and light food.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "the-lab-street-eats",
-   "name": "The Lab Street Eats",
-   "group": "Other",
-   "cuisine": "Street-food eatery (menu unconfirmed)",
-   "category": "Restaurant",
-   "cost": 18,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "105 Victoria St S",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Street-food style eatery in the former Sing Lee and Breakfast Blues & BBQs space; menu not confirmed.",
+   "description": "Neighbourhood café that moved from St. Jacobs to Laurelwood, serving coffee and light lunch fare; it has a sister café in Hespeler.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -13596,8 +12596,8 @@
    "id": "the-lazy-lentil-plant-based-kitchen",
    "name": "The Lazy Lentil Plant Based Kitchen",
    "group": "Vegan & Vegetarian",
-   "cuisine": "Plant-based prepared meals",
-   "category": "Food hall stall",
+   "cuisine": "Vegan, gluten-free prepared bowls, salads & stews",
+   "category": "Takeout counter",
    "cost": 16,
    "tier": "$",
    "locations": [
@@ -13607,14 +12607,20 @@
      "area": "Hespeler"
     }
    ],
-   "description": "Plant-based kitchen stall at the Hespeler Village Market selling vegan prepared meals to take away.",
-   "dishes": [],
+   "description": "Vegan, gluten-free and nut-free kitchen selling bowls, salads, stews and cabbage rolls for takeout, also at the Cambridge Farmers' Market on Saturdays.",
+   "dishes": [
+    "Pad Thai Bowl",
+    "Lentil, Kale & Mushroom Stew",
+    "Lazy Mushroom Cabbage Rolls",
+    "Burrito Bowl"
+   ],
    "dietary": [
+    "Gluten-free options",
     "Vegan options",
     "Vegetarian-friendly"
    ],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://thelazylentilkitchen.com/",
+   "unconfirmed": false
   },
   {
    "id": "the-local-eatery",
@@ -13707,10 +12713,10 @@
    "unconfirmed": false
   },
   {
-   "id": "the-nook-cook-house",
-   "name": "The Nook Cook House",
+   "id": "the-nook",
+   "name": "The Nook",
    "group": "Diner & Family",
-   "cuisine": "Comfort food & diner fare",
+   "cuisine": "Comfort food: mac and cheese, grilled cheese & wraps",
    "category": "Restaurant",
    "cost": 20,
    "tier": "$$",
@@ -13721,11 +12727,16 @@
      "area": "Preston"
     }
    ],
-   "description": "Newer independent Preston eatery serving diner-style comfort food.",
-   "dishes": [],
+   "description": "Casual Preston lunch spot (formerly The Nook Cook House) known for loaded mac and cheese bowls, grilled cheese, wraps, sandwiches and hot dogs.",
+   "dishes": [
+    "Butter Chicken Mac",
+    "Sloppy Mac",
+    "Spicy Buffalo Chicken Grilled Cheese",
+    "Chicken Club Wrap"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.thenookcambridge.com/",
+   "unconfirmed": false
   },
   {
    "id": "the-pick-and-shovel",
@@ -13752,7 +12763,7 @@
    "id": "the-pizza-box",
    "name": "The Pizza Box",
    "group": "Pizza",
-   "cuisine": "Takeout pizza (counter in a convenience store)",
+   "cuisine": "Takeout pizza",
    "category": "Takeout counter",
    "cost": 12,
    "tier": "$",
@@ -13763,7 +12774,7 @@
      "area": "Lancaster St W"
     }
    ],
-   "description": "Pizza takeout counter inside the Most Convenient store on Lancaster St W.",
+   "description": "Small takeout pizza counter on Lancaster Street West selling pizza by the pie for pickup and delivery.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -13904,10 +12915,10 @@
    "unconfirmed": false
   },
   {
-   "id": "the-sobo",
-   "name": "The Sobo",
-   "group": "Other",
-   "cuisine": "Takeout (menu not verified)",
+   "id": "the-sobo-indian-street-food",
+   "name": "The Sobo - Indian Street Food",
+   "group": "Indian",
+   "cuisine": "Mumbai-style Indian street food",
    "category": "Takeout counter",
    "cost": 15,
    "tier": "$",
@@ -13918,11 +12929,18 @@
      "area": "University District"
     }
    ],
-   "description": "Takeout counter at the 308 King building; its food could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
+   "description": "Bombay-style vegetarian street food counter serving vada pav, dabeli, pav bhaji, chaat, Frankie wraps and masala chai.",
+   "dishes": [
+    "Butter Vada Pav",
+    "Butter Dabeli",
+    "Pav Bhaji",
+    "Misal Pav"
+   ],
+   "dietary": [
+    "Vegetarian-friendly"
+   ],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "the-village-pakistani-take-out",
@@ -14024,59 +13042,10 @@
    "unconfirmed": false
   },
   {
-   "id": "tito-s-2-for-1-pizza",
-   "name": "Tito's 2 for 1 Pizza",
-   "group": "Pizza",
-   "cuisine": "2-for-1 pizza takeout",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "165 Fisher Mills Rd",
-     "city": "Cambridge",
-     "area": "Hespeler"
-    },
-    {
-     "address": "304 St Andrews St",
-     "city": "Cambridge",
-     "area": "Galt"
-    }
-   ],
-   "description": "Pizza takeout shop from a small regional chain with fewer than 10 shops, known for 2-for-1 pizza deals.",
-   "dishes": [
-    "2-for-1 pizzas"
-   ],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
-   "id": "tito-s-pizza",
-   "name": "Tito's Pizza",
-   "group": "Pizza",
-   "cuisine": "Pizza & wings takeout",
-   "category": "Takeout counter",
-   "cost": 16,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "153 Country Hill Dr",
-     "city": "Kitchener",
-     "area": "Country Hills"
-    }
-   ],
-   "description": "Local pizza shop serving pizzas and sides for pickup and delivery.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": false
-  },
-  {
    "id": "toast-and-bite",
    "name": "Toast & Bite",
    "group": "Breakfast & Brunch",
-   "cuisine": "Breakfast, toasts & sandwiches (inferred)",
+   "cuisine": "Breakfast, toasts & sandwiches",
    "category": "Café",
    "cost": 16,
    "tier": "$",
@@ -14087,7 +13056,7 @@
      "area": "The Boardwalk"
     }
    ],
-   "description": "Small eatery near The Boardwalk; the name suggests toasts, sandwiches and breakfast-style light meals.",
+   "description": "Small café serving breakfast, toasts and sandwiches in a northeast Waterloo plaza.",
    "dishes": [],
    "dietary": [],
    "website": "",
@@ -14395,9 +13364,9 @@
    "id": "tza-greek",
    "name": "Tza Greek",
    "group": "Greek & Mediterranean",
-   "cuisine": "Greek souvlaki & gyros",
+   "cuisine": "Greek gyros & street food",
    "category": "Restaurant",
-   "cost": 20,
+   "cost": 22,
    "tier": "$$",
    "locations": [
     {
@@ -14406,32 +13375,16 @@
      "area": "Northfield"
     }
    ],
-   "description": "Casual Greek restaurant in a Northfield Dr plaza serving Greek plates, wraps and tzatziki-based dishes.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
-  },
-  {
-   "id": "ummi-s",
-   "name": "Ummi's",
-   "group": "Other",
-   "cuisine": "Market food stall (cuisine unconfirmed)",
-   "category": "Food hall stall",
-   "cost": 12,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "300 King St E",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
+   "description": "Greek gyro bar and café serving pitas, gyro platters, street boxes, fire-grilled chicken and village salads for dine-in, pickup and catering.",
+   "dishes": [
+    "Greek Feast",
+    "The Skepasti",
+    "Authentic Pitas",
+    "Street Box"
    ],
-   "description": "Prepared-food vendor at the Kitchener Market. Its menu could not be confirmed.",
-   "dishes": [],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.tzagreek.ca",
+   "unconfirmed": false
   },
   {
    "id": "uncle-s-shawarma-and-kabob",
@@ -14458,27 +13411,6 @@
    ],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "unicorn-cafe",
-   "name": "Unicorn Cafe",
-   "group": "Café & Bakery",
-   "cuisine": "Café (drinks & light meals)",
-   "category": "Café",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "60 Frederick St",
-     "city": "Kitchener",
-     "area": "Downtown Kitchener"
-    }
-   ],
-   "description": "Downtown café on the ground floor of the DTK condo tower serving coffee, drinks and light café food.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "university-garden-chinese-cuisine",
@@ -14601,11 +13533,11 @@
   },
   {
    "id": "verona-pizza-and-grill",
-   "name": "Verona Pizza and Grill",
+   "name": "Verona Pizza & Grill",
    "group": "Pizza",
-   "cuisine": "Pizza & grill takeout",
+   "cuisine": "Stone-oven pizza & wings",
    "category": "Takeout counter",
-   "cost": 16,
+   "cost": 15,
    "tier": "$",
    "locations": [
     {
@@ -14614,11 +13546,15 @@
      "area": "Laurentian West"
     }
    ],
-   "description": "Takeout pizzeria also serving grilled items such as burgers, wings and subs.",
-   "dishes": [],
+   "description": "Takeout and delivery pizzeria known for stone-oven pizzas, gourmet pies, wings and combo deals; a second location is in Baden.",
+   "dishes": [
+    "Gourmet stone-oven pizzas",
+    "Chicken wings",
+    "XL pizza and wings combo"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://www.veronapizzaandgrill.com",
+   "unconfirmed": false
   },
   {
    "id": "veslo-family-restaurant",
@@ -14659,13 +13595,11 @@
      "area": "Mount Hope"
     }
    ],
-   "description": "Indian restaurant on Weber Street West serving curries and other South Asian dishes.",
+   "description": "Casual Indian restaurant on Weber Street West serving curries, rice dishes and breads.",
    "dishes": [],
-   "dietary": [
-    "Vegetarian-friendly"
-   ],
-   "website": "",
-   "unconfirmed": true
+   "dietary": [],
+   "website": "http://www.vijaysindiancuisine.com/",
+   "unconfirmed": false
   },
   {
    "id": "vishnu-s-doubles-and-roti-shop",
@@ -14942,7 +13876,7 @@
    "id": "woodfired-cafe-and-bakecurry",
    "name": "Woodfired Café & Bakecurry",
    "group": "Café & Bakery",
-   "cuisine": "Bakery-café with curries",
+   "cuisine": "Woodfired bakery-café with curries, pizza & melts",
    "category": "Bakery",
    "cost": 15,
    "tier": "$",
@@ -14953,11 +13887,16 @@
      "area": "Lancaster St W"
     }
    ],
-   "description": "Lancaster St W bakery-café selling baked goods alongside curry dishes.",
-   "dishes": [],
+   "description": "Woodfired bakehouse serving baked goods alongside curries with fresh naan and rice, pizza, and melts and sandwiches at lunch.",
+   "dishes": [
+    "Curry Combo",
+    "Pepperoni Pizza",
+    "Brownie Bar",
+    "Chicken Melt"
+   ],
    "dietary": [],
-   "website": "",
-   "unconfirmed": true
+   "website": "https://woodfiredcafebakecurry.com/",
+   "unconfirmed": false
   },
   {
    "id": "woolwich-pizza",
@@ -14979,27 +13918,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "wtfun",
-   "name": "WTFun",
-   "group": "Other",
-   "cuisine": "Takeout (menu unverified)",
-   "category": "Takeout counter",
-   "cost": 15,
-   "tier": "$",
-   "locations": [
-    {
-     "address": "2 King St N",
-     "city": "Waterloo",
-     "area": "Uptown Waterloo"
-    }
-   ],
-   "description": "Takeout counter in Uptown Waterloo; what it serves could not be confirmed.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   },
   {
    "id": "xiang-hotpot",
@@ -15071,9 +13989,9 @@
    "id": "ye-s-house",
    "name": "Ye's House",
    "group": "Chinese",
-   "cuisine": "Chinese home-style & barbecue",
+   "cuisine": "Chinese breakfast, wontons & dumplings",
    "category": "Restaurant",
-   "cost": 18,
+   "cost": 15,
    "tier": "$",
    "locations": [
     {
@@ -15082,11 +14000,16 @@
      "area": "University District"
     }
    ],
-   "description": "Chinese restaurant in the student plaza near UW; the unit was previously listed as Lotus Barbecue House.",
-   "dishes": [],
+   "description": "Chinese breakfast and noodle shop serving jianbing, wonton soups, dumplings, congee, soy milk and fried dough sticks.",
+   "dishes": [
+    "Jianbing guozi",
+    "Shanghai wonton soup",
+    "Pork and cabbage dumplings",
+    "Century egg and pork congee"
+   ],
    "dietary": [],
    "website": "",
-   "unconfirmed": true
+   "unconfirmed": false
   },
   {
    "id": "ye-s-sushi",
@@ -15238,27 +14161,6 @@
    "dietary": [],
    "website": "",
    "unconfirmed": false
-  },
-  {
-   "id": "zenshi-sushi",
-   "name": "Zenshi Sushi",
-   "group": "Japanese",
-   "cuisine": "Sushi takeout",
-   "category": "Takeout counter",
-   "cost": 22,
-   "tier": "$$",
-   "locations": [
-    {
-     "address": "1187 Fisher-Hallman Rd",
-     "city": "Kitchener",
-     "area": "Laurentian West"
-    }
-   ],
-   "description": "Sushi takeout shop serving maki rolls, sashimi and bento-style boxes.",
-   "dishes": [],
-   "dietary": [],
-   "website": "",
-   "unconfirmed": true
   }
  ]
 }
